@@ -2,4 +2,4 @@ __pycache__
 .venv
 *.egg*
 .git
-~/python/csv2mdpages/USFS
+~/python/csv2mdpages/USFS/*
