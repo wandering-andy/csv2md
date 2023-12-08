@@ -1,0 +1,444 @@
+REGION_NUM,REGION_NAME,FOREST_NAME,DISTRICT_NAME,CITY,STATE,LOCATION,MODULES,HOUSING,NOTES,FOREST_URL
+5,Pacific Southwest,ANGELES,LOS ANGELES GATEWAY,ACTON,CALIFORNIA,"ACTON, CALIFORNIA",Hotshot Crew,YES,,http://www.fs.usda.gov/angeles
+5,Pacific Southwest,MODOC,BIG VALLEY,ADIN,CALIFORNIA,"ADIN, CALIFORNIA","Engine, Water tender",YES,,http://www.fs.usda.gov/modoc
+4,Intermountain,BRIDGER-TETON,GREYS RIVER,AFTON,WYOMING,"AFTON, WYOMING",Engine,YES,,http://www.fs.usda.gov/btnf
+3,Southwestern,APACHE-SITGREAVES,ALPINE,ALPINE,ARIZONA,"ALPINE, ARIZONA","Engine, IA Crew/Squad (4-10 person)",YES,,https://www.fs.usda.gov/asnf
+5,Pacific Southwest,CLEVELAND,DESCANSO,ALPINE,CALIFORNIA,"ALPINE, CALIFORNIA",,,,http://www.fs.usda.gov/cleveland
+5,Pacific Southwest,MODOC,DEVILS GARDEN,ALTURAS,CALIFORNIA,"ALTURAS, CALIFORNIA",,,,http://www.fs.usda.gov/modoc
+6,Pacific Northwest,GIFFORD PINCHOT,MT SAINT HELENS NATIONAL VOLCANIC MONUMENT,AMBOY,WASHINGTON,"AMBOY, WASHINGTON",IA Crew/Squad (4-10 person),YES,NICE ASS BUNKHOUSES,http://www.fs.usda.gov/giffordpinchot
+1,Northern,CUSTER GALLATIN,ASHLAND,ASHLAND,MONTANA,"ASHLAND, MONTANA","Engine, Fuels",YES,,http://www.fs.usda.gov/custergallatin
+4,Intermountain,CARIBOU-TARGHEE,ASHTON/ISLAND PARK,ASHTON,IDAHO,"ASHTON, IDAHO",,,,http://www.fs.usda.gov/ctnf
+2,Rocky Mountain,WHITE RIVER,ASPEN,ASPEN,COLORADO,"ASPEN, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+1,Northern,HELENA-LEWIS AND CLARK,ROCKY MOUNTAIN,AUGUSTA,MONTANA,"AUGUSTA, MONTANA","Engine, WFM",YES,,http://www.fs.usda.gov/helena/
+2,Rocky Mountain,ARAPAHO AND ROOSEVELT,PAWNEE NATIONAL GRASSLAND,AULT,COLORADO,"AULT, COLORADO",,,,http://www.fs.usda.gov/arp
+4,Intermountain,HUMBOLDT-TOIYABE,AUSTIN/TONOPAH,AUSTIN,NEVADA,"AUSTIN, NEVADA",Engine,YES,,http://www.fs.usda.gov/htnf
+1,Northern,IDAHO PANHANDLE,ST. JOE,AVERY,IDAHO,"AVERY, IDAHO","Engine, WFM",YES,,https://www.fs.usda.gov/ipnf/
+6,Pacific Northwest,WALLOWA-WHITMAN,WHITMAN,BAKER CITY,OREGON,"BAKER CITY, OREGON",,,,http://www.fs.usda.gov/wallowa-whitman
+2,Rocky Mountain,SAN JUAN,COLUMBINE,BAYFIELD,COLORADO,"BAYFIELD, COLORADO","Engine, WFM",YES,"Bayfield housing is at Vallecito Work Center and is very limited, with maybe only 2 beds? - An old bunk house at Vallecito where the WFM and Engine are out of. Maybe 2 rooms. Limited rentals in bayfield and Durango. Most are $$$. Home prices are outrageous. Good luck.  - Absolute shithole",http://www.fs.usda.gov/sanjuan
+4,Intermountain,FISHLAKE,BEAVER,BEAVER,UTAH,"BEAVER, UTAH",,,,http://www.fs.usda.gov/fishlake
+5,Pacific Southwest,PLUMAS,BECKWOURTH,BECKWOURTH,CALIFORNIA,"BECKWOURTH, CALIFORNIA","Hotshot Crew, Prevention",YES,Housing for Beckwourth hotshots provided at district office in Mohawk 20 minutes away. ,http://www.fs.usda.gov/plumas/
+6,Pacific Northwest,DESCHUTES,BEND/FORT ROCK,BEND,OREGON,"BEND, OREGON","Engine, WFM",YES,"No gov housing, but theyâ€™ve been putting people up in local college dorms. As far as I know this is still going on.",http://www.fs.usda.gov/centraloregon
+5,Pacific Southwest,SHASTA-TRINITY,BIG BAR,BIG BAR,CALIFORNIA,"BIG BAR, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/stnf/
+4,Intermountain,BRIDGER-TETON,BIG PINEY,BIG PINEY,WYOMING,"BIG PINEY, WYOMING","Engine, Hotshot Crew, Fuels",YES,,http://www.fs.usda.gov/btnf
+1,Northern,CUSTER GALLATIN,BOZEMAN,BIG TIMBER,MONTANA,"BIG TIMBER, MONTANA",Engine,YES,,http://www.fs.usda.gov/custergallatin
+1,Northern,FLATHEAD,SWAN LAKE,BIGFORK,MONTANA,"BIGFORK, MONTANA","Engine, Type 2/2IA Handcrew, Hotshot Crew, WFM, Prevention",YES,,http://www.fs.usda.gov/flathead
+5,Pacific Southwest,INYO,WHITE MOUNTAIN,BISHOP,CALIFORNIA,"BISHOP, CALIFORNIA",,,,http://www.fs.usda.gov/inyo/
+5,Pacific Southwest,PLUMAS,BECKWOURTH,BLAIRSDEN,CALIFORNIA,"BLAIRSDEN, CALIFORNIA","Engine, Prevention, Water Tender",YES,,http://www.fs.usda.gov/plumas/
+3,Southwestern,CARSON,JICARILLA,BLOOMFIELD,NEW MEXICO,"BLOOMFIELD, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+6,Pacific Northwest,FREMONT-WINEMA,BLY,BLY,OREGON,"BLY, OREGON","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/fremont-winema
+1,Northern,IDAHO PANHANDLE,BONNERS FERRY,BONNERS FERRY,IDAHO,"BONNERS FERRY, IDAHO",Engine,YES,,https://www.fs.usda.gov/ipnf/
+2,Rocky Mountain,ARAPAHO AND ROOSEVELT,BOULDER,BOULDER,COLORADO,"BOULDER, COLORADO",IA Crew/Squad (4-10 person),YES,,http://www.fs.usda.gov/arp
+1,Northern,CUSTER GALLATIN,BOZEMAN,BOZEMAN,MONTANA,"BOZEMAN, MONTANA",Engine,YES,Very cool location for housing outside of town in the Gallatin Canyon. ,http://www.fs.usda.gov/custergallatin
+1,Northern,CUSTER GALLATIN,BOZEMAN,BOZEMAN,MONTANA,"BOZEMAN, MONTANA",Rappel,YES,Very cool location for housing outside of town in the Gallatin Canyon. ,http://www.fs.usda.gov/custergallatin
+4,Intermountain,HUMBOLDT-TOIYABE,BRIDGEPORT,BRIDGEPORT,CALIFORNIA,"BRIDGEPORT, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/htnf
+5,Pacific Southwest,SIX RIVERS,MAD RIVER,BRIDGERVILLE,CALIFORNIA,"BRIDGERVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/srnf/
+2,Rocky Mountain,BIGHORN,POWDER RIVER,BUFFALO,WYOMING,"BUFFALO, WYOMING","WFM, ENGINE",YES,"Housing isnâ€™t great, Bunkhouse on the mountain, fairly expensive compared to living in town. There are also RV pads that shut down by sept due to snow. - Housing either at Hunter work Center or a house in town. Every year they tell us the house will be sold, but hasnâ€™t yet",http://www.fs.usda.gov/bighorn
+4,Intermountain,SAWTOOTH,MINIDOKA,BURLEY,IDAHO,"BURLEY, IDAHO","Engine, Fuels, Prevention",YES,2 bunkhouses in Malta ,http://www.fs.usda.gov/sawtooth
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,,BUTTE FALLS,OREGON,"BUTTE FALLS, OREGON",Engine,YES,,http://www.fs.usda.gov/rogue-siskiyou/
+1,Northern,BEAVERHEAD-DEERLODGE,BUTTE,BUTTE,MONTANA,"BUTTE, MONTANA","Engine, Fuels, Prevention, Type 2/2IA Handcrew (Dedicated 20+person), IA Crew/Squad (4-10 person), Hotshot Crew",NO,,http://www.fs.usda.gov/bdnf
+5,Pacific Southwest,KLAMATH,SCOTT-SALMON,CALLAHAN,CALIFORNIA,"CALLAHAN, CALIFORNIA",Engine,YES,"Barracks usually have extra space, so Fort Jones will sometimes house guys in Callahan",http://www.fs.usda.gov/klamath
+5,Pacific Southwest,ELDORADO,PLACERVILLE,CAMINO,CALIFORNIA,"CAMINO, CALIFORNIA",,,,http://www.fs.usda.gov/eldorado
+1,Northern,CUSTER GALLATIN,SIOUX,CAMP CROOK,SOUTH DAKOTA,"CAMP CROOK, SOUTH DAKOTA",,,,http://www.fs.usda.gov/custergallatin
+3,Southwestern,PRESCOTT,VERDE,CAMP VERDE,ARIZONA,"CAMP VERDE, ARIZONA","Engine, Prevention",NO,,https://www.fs.usda.gov/prescott
+5,Pacific Southwest,TAHOE,YUBA RIVER,CAMPTONVILLE,CALIFORNIA,"CAMPTONVILLE, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+5,Pacific Southwest,MODOC,DEVILS GARDEN,CANBY,CALIFORNIA,"CANBY, CALIFORNIA","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/modoc
+3,Southwestern,CARSON,CANJILON,CANJILON,NEW MEXICO,"CANJILON, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+2,Rocky Mountain,PIKE AND SAN ISABEL,SAN CARLOS,CANON CITY,COLORADO,"CANON CITY, COLORADO",Engine,No,"Cheap, dorm style housing near station â€” 350 a month, lots of BLM and USFS employees",http://www.fs.usda.gov/psicc
+3,Southwestern,LINCOLN,SMOKEY BEAR,CAPITAN,NEW MEXICO,"CAPITAN, NEW MEXICO","Engine, Prevention",YES,,https://www.fs.usda.gov/lincoln
+2,Rocky Mountain,WHITE RIVER,ASPEN,CARBONDALE,COLORADO,"CARBONDALE, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+2,Rocky Mountain,WHITE RIVER,SOPRIS,CARBONDALE,COLORADO,"CARBONDALE, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+3,Southwestern,LINCOLN,GUADALUPE,CARLSBAD,NEW MEXICO,"CARLSBAD, NEW MEXICO","Engine, Prevention",YES,,https://www.fs.usda.gov/lincoln
+4,Intermountain,HUMBOLDT-TOIYABE,CARSON,CARSON CITY,NEVADA,"CARSON CITY, NEVADA","Type 2/2IA Handcrew, IA Crew/Squad (4-10 person), Hotshot Crew, WFM, Helitack, Fuels",YES,"The Carson City duty station has multiple outposts. Carson City proper is home to the Black Mountain IHC, who have their own barracks.
+Reno, NV has engines, patrol, and overhead. Jack's Valley, NV has 1 engine. Markleeville, CA has 2 engines. Barracks for engines and misc forest employees is in Markleeville, which is ~1 hour from reno. Further, the barracks in markleeville have only been available for the engines stationed there due to covid for the past 2 years",http://www.fs.usda.gov/htnf
+6,Pacific Northwest,COLUMBIA RIVER GORGE NATIONAL SCENIC AREA,COLUMBIA RIVER GORGE NATIONAL SCENIC AREA,CASCADE LOCKS,OREGON,"CASCADE LOCKS, OREGON",,,,http://www.fs.usda.gov/crgnsa
+4,Intermountain,BOISE,CASCADE,CASCADE,IDAHO,"CASCADE, IDAHO","Engine, WFM",YES,,http://www.fs.usda.gov/boise
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,WILD RIVERS,CAVE JUNCTION,OREGON,"CAVE JUNCTION, OREGON","Engine, WFM, Rappel, Prevention",YES,,http://www.fs.usda.gov/rogue-siskiyou/
+3,Southwestern,TONTO,CAVE CREEK,CAVECREEK,ARIZONA,"CAVECREEK, ARIZONA","Engine, Prevention",NO,,https://www.fs.usda.gov/tonto/
+5,Pacific Southwest,KLAMATH,SCOTT-SALMON,CECILVILLE,CALIFORNIA,"CECILVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/klamath
+4,Intermountain,DIXIE,CEDAR CITY,CEDAR CITY,UTAH,"CEDAR CITY, UTAH","Engine, IA Crew/Squad (4-10 person), Hotshot Crew",NO,,http://www.fs.usda.gov/dixie
+5,Pacific Southwest,MODOC,WARNER MOUNTAIN,CEDARVILLE,CALIFORNIA,"CEDARVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/modoc
+2,Rocky Mountain,NEBRASKA,PINE RIDGE,CHADRON,NEBRASKA,"CHADRON, NEBRASKA","Engine, Fuels",NO,,http://www.fs.usda.gov/nebraska
+5,Pacific Southwest,PLUMAS,FEATHER RIVER,CHALLENGE,CALIFORNIA,"CHALLENGE, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/plumas/
+4,Intermountain,SALMON AND CHALLIS,CHALLIS & YANKEE FORK,CHALLIS,IDAHO,"CHALLIS, IDAHO","Engine, Helitack, Fuels, Prevention",YES,Newish bunkhouses for seasonals in Challis ,http://www.fs.usda.gov/scnf
+4,Intermountain,SALMON AND CHALLIS,MIDDLE FORK,CHALLIS,IDAHO,"CHALLIS, IDAHO",,,,http://www.fs.usda.gov/scnf
+6,Pacific Northwest,OKANOGAN-WENATCHEE,CHELAN,CHELAN,WASHINGTON,"CHELAN, WASHINGTON",IA Crew/Squad (4-10 person),YES,,http://www.fs.usda.gov/okawen
+6,Pacific Northwest,FREMONT-WINEMA,CHEMULT,CHEMULT,OREGON,"CHEMULT, OREGON",Engine,YES,,http://www.fs.usda.gov/fremont-winema
+5,Pacific Southwest,LASSEN,ALMANOR,CHESTER,CALIFORNIA,"CHESTER, CALIFORNIA","Engine, Type 2/2IA Handcrew (Dedicated 20+person), Helitack",YES,,http://www.fs.usda.gov/lassen
+3,Southwestern,BLACK KETTLE NATIONAL GRASSLANDS,,CHEYENNE,OKLAHOLMA,"CHEYENNE, OKLAHOLMA",Engine,NO,,https://www.fs.usda.gov/cibola
+6,Pacific Northwest,FREMONT-WINEMA,CHILOQUIN,CHILOQUIN,OREGON,"CHILOQUIN, OREGON",Engine,YES,,http://www.fs.usda.gov/fremont-winema
+3,Southwestern,PRESCOTT,CHINO VALLEY,CHINO VALLEY,ARIZONA,"CHINO VALLEY, ARIZONA",IA Crew/Squad (4-10 person),NO,,https://www.fs.usda.gov/prescott
+1,Northern,HELENA-LEWIS AND CLARK,ROCKY MOUNTAIN,CHOTEAU,MONTANA,"CHOTEAU, MONTANA",,,,http://www.fs.usda.gov/helena/
+6,Pacific Northwest,WALLOWA-WHITMAN,HELLS CANYON NATIONAL RECREATION AREA,CLARKSTON,WASHINGTON,"CLARKSTON, WASHINGTON",,,,http://www.fs.usda.gov/wallowa-whitman
+4,Intermountain,SALMON AND CHALLIS,CHALLIS & YANKEE FORK,CLAYTON,IDAHO,"CLAYTON, IDAHO","Engine, WFM",YES,Perm and seasonal housing right on the river. 30 min to Challis and Stanley. nearby do-it-all gas station with good food and misc stuff,http://www.fs.usda.gov/scnf
+3,Southwestern,KIOWA AND RITA BLANCA NATIONAL GRASSLANDS,,CLAYTON,NEW MEXICO,"CLAYTON, NEW MEXICO",Engine,NO,,https://www.fs.usda.gov/cibola
+6,Pacific Northwest,OKANOGAN-WENATCHEE,CLE ELUM,CLE ELUM,WASHINGTON,"CLE ELUM, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , Fuels, Prevention",YES,"Bunkhouse on station for 8 people. Also have 2 more bunkhouses (1 in Liberty and 1 in Snoqualmie Pass, both about 30 mins away). ",http://www.fs.usda.gov/okawen
+3,Southwestern,LINCOLN,SACRAMENTO,CLOUDCROFT,NEW MEXICO,"CLOUDCROFT, NEW MEXICO",,,,https://www.fs.usda.gov/lincoln
+2,Rocky Mountain,SHOSHONE,WAPITI,CODY,WYOMING,"CODY, WYOMING","Engine, WFM, Fuels",Yes,housing 45 mins away no service,http://www.fs.usda.gov/shoshone
+1,Northern,IDAHO PANHANDLE,COEUR D ALENE RIVER,COEUR D ALENE,IDAHO,"COEUR D ALENE, IDAHO",Helitack,NO,,https://www.fs.usda.gov/ipnf/
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",GRAND VALLEY,COLLBRAN,COLORADO,"COLLBRAN, COLORADO",Job Corps crew,YES,Housing only for job corps students. USFS fire staff not provided housing,
+2,Rocky Mountain,PIKE AND SAN ISABEL,PIKES PEAK,COLORADO SPGS,COLORADO,"COLORADO SPGS, COLORADO",,,,http://www.fs.usda.gov/psicc
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,,CONCRETE,WASHINGTON,"CONCRETE, WASHINGTON",Engine,YES,,http://www.fs.usda.gov/mbs
+1,Northern,FLATHEAD,TALLY LAKE,CONDON,MONTANA,"CONDON, MONTANA",Type 2/2IA Handcrew (Dedicated 20+person),YES,"The housing for the Great Northern T2IA is arguably some of the best in the nation in a beautiful location not too far from civilization. I just wish it was a shot crew, I'd never leave.",http://www.fs.usda.gov/flathead
+2,Rocky Mountain,PIKE AND SAN ISABEL,SOUTH PLATTE,CONIFER,COLORADO,"CONIFER, COLORADO",,,,http://www.fs.usda.gov/psicc
+5,Pacific Southwest,CLEVELAND,TRABUCO,CORONA,CALIFORNIA,"CORONA, CALIFORNIA",,,,http://www.fs.usda.gov/cleveland
+6,Pacific Northwest,UMPQUA,COTTAGE GROVE,COTTAGE GROVE,OREGON,"COTTAGE GROVE, OREGON",,,,http://www.fs.usda.gov/umpqua
+4,Intermountain,PAYETTE,COUNCIL,COUNCIL,IDAHO,"COUNCIL, IDAHO","Engine, WFM",YES,"Hells Canyon WFM, Type 6 and Type 4 engine",http://www.fs.usda.gov/payette
+5,Pacific Southwest,MENDOCINO,COVELO,COVELO,CALIFORNIA,"COVELO, CALIFORNIA",,,,http://www.fs.usda.gov/mendocino/
+3,Southwestern,SANTA FE,COYOTE,COYOTE,NEW MEXICO,"COYOTE, NEW MEXICO",Engine,YES,Not yet an official bunkhouse but it is a W.I.P.,https://www.fs.usda.gov/santafe/
+2,Rocky Mountain,RIO GRANDE,DIVIDE,CREEDE,COLORADO,"CREEDE, COLORADO",,,,http://www.fs.usda.gov/riogrande
+6,Pacific Northwest,DESCHUTES,CRESCENT,CRESCENT,OREGON,"CRESCENT, OREGON","Engine, IA Crew/Squad (4-10 person), Fuels, Prevention",YES,bunkhouse,http://www.fs.usda.gov/centraloregon
+3,Southwestern,SANTA FE,CUBA,CUBA,NEW MEXICO,"CUBA, NEW MEXICO",Engine,YES,,https://www.fs.usda.gov/santafe/
+2,Rocky Mountain,BLACK HILLS,HELL CANYON,CUSTER,SOUTH DAKOTA,"CUSTER, SOUTH DAKOTA",,,,http://www.fs.usda.gov/blackhills
+1,Northern,BITTERROOT,WEST FORK,DARBY,MONTANA,"DARBY, MONTANA","Engine, IA Crew/Squad (4-10 person), Fuels",YES,"bunkhouse and station are 25 min from town, West Fork ranger station, duty station darby, separate crew/ district from ""Darby/sula"" ",http://www.fs.usda.gov/bitterroot
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,DARRINGTON,DARRINGTON,WASHINGTON,"DARRINGTON, WASHINGTON",Type 2/2IA Handcrew  (Dedicated 20+person) ,YES,,http://www.fs.usda.gov/mbs
+2,Rocky Mountain,RIO GRANDE,DIVIDE,DEL NORTE,COLORADO,"DEL NORTE, COLORADO",,,,http://www.fs.usda.gov/riogrande
+6,Pacific Northwest,WILLAMETTE,DETROIT,DETROIT,OREGON,"DETROIT, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person)",YES,,http://www.fs.usda.gov/willamette
+6,Pacific Northwest,UMPQUA,DIAMOND LAKE,DIAMOND LAKE,OREGON,"DIAMOND LAKE, OREGON",Type 2/2IA Handcrew  (Dedicated 20+person),YES,,http://www.fs.usda.gov/umpqua
+1,Northern,DAKOTA PRAIRIE GRASSLANDS,MEDORA,DICKINSON,NORTH DAKOTA,"DICKINSON, NORTH DAKOTA",,,,http://www.fs.usda.gov/dpg/
+1,Northern,BEAVERHEAD-DEERLODGE,DILLON,DILLON,MONTANA,"DILLON, MONTANA","Engine, Type 2/2IA Handcrew, IA Crew/Squad (4-10 person)",YES,Some housing available through university,http://www.fs.usda.gov/bdnf
+2,Rocky Mountain,SAN JUAN,MANCOS/DOLORES,DOLORES,COLORADO,"DOLORES, COLORADO","Engine, Fuels",YES,"Only for seasonals, perms are stuck looking for overpriced and slim to none real estate.",http://www.fs.usda.gov/sanjuan
+3,Southwestern,CORONADO,DOUGLAS,DOUGLAS,ARIZONA,"DOUGLAS, ARIZONA",Engine,NO,,https://www.fs.usda.gov/coronado
+2,Rocky Mountain,MEDICINE BOW-ROUTT,DOUGLAS,DOUGLAS,WYOMING,"DOUGLAS, WYOMING",,,,http://www.fs.usda.gov/mbr
+5,Pacific Southwest,TAHOE,YUBA RIVER,DOWNIEVILLE,CALIFORNIA,"DOWNIEVILLE, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+4,Intermountain,CARIBOU-TARGHEE,TETON BASIN,DRIGGS,IDAHO,"DRIGGS, IDAHO",,,,http://www.fs.usda.gov/ctnf
+4,Intermountain,CARIBOU-TARGHEE,DUBOIS,DUBOIS,IDAHO,"DUBOIS, IDAHO",,,,http://www.fs.usda.gov/ctnf
+2,Rocky Mountain,SHOSHONE,WIND RIVER,DUBOIS,WYOMING,"DUBOIS, WYOMING","Engine, Fuels",YES,,http://www.fs.usda.gov/shoshone
+4,Intermountain,ASHLEY,DUCHESNE,DUCHESNE,UTAH,"DUCHESNE, UTAH","Engine, WFM, Prevention",YES,"Duchesne, UT is the duty station for a Zone Fire Management Officer, Zone Assistant Fire Management Officer, a Prevention Technician, Kings Peak WFM, a Type 4 and a Type 6 engine. Housing is available, with priority usually going to temporary employees. Kings Peak WFM is housed in Stockmore Guard Station located about about 35 miles NW of Duchesne. Engine crewmembers are housed in a bunkhouse in Duchesne that is shared with employees from other program areas on the district (Range, Recreation, Wildlife etc.)",http://www.fs.usda.gov/ashley
+6,Pacific Northwest,MT. HOOD,BARLOW,DUFUR,OREGON,"DUFUR, OREGON",Engine,YES,,http://www.fs.usda.gov/mthood
+3,Southwestern,APACHE-SITGREAVES,CLIFTON,DUNCAN,ARIZONA,"DUNCAN, ARIZONA",IA Crew/Squad (4-10 person),YES,"Housing available in approximately 20 year old FEMA trailers.  Housing is primarily allocated to fire seasonal employees.  Trailers are triple occupancy and have one private bedroom and one room with two bunk beds.  Rental rates are above average for Forest service duty stations elsewhere in R3.  Bunk beds are not designed for adults and can only comfortably fit individuals up to 5â€™6.  Rental properties available in Safford and Duncan AZ, approximately 40 minutes to 1 hour one way commute.  Rentals can typically be found in the 600 to 1000/month range.  District housing is not recommended and is in serious disrepair.",https://www.fs.usda.gov/asnf
+5,Pacific Southwest,SEQUOIA,HUME LAKE,DUNLAP,CALIFORNIA,"DUNLAP, CALIFORNIA",,,,http://www.fs.usda.gov/sequoia/
+4,Intermountain,ASHLEY,FLAMING GORGE/VERNAL,DUTCH JOHN,UTAH,"DUTCH JOHN, UTAH",Engine,YES,,http://www.fs.usda.gov/ashley
+2,Rocky Mountain,WHITE RIVER,EAGLE,EAGLE,COLORADO,"EAGLE, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+3,Southwestern,CARSON,EL RITO,EL RITO,NEW MEXICO,"EL RITO, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+1,Northern,NEZ PERCE-CLEARWATER,RED RIVER,ELK CITY,IDAHO,"ELK CITY, IDAHO","Engine, IA Crew/Squad (4-10 person),Type 2/2IA Handcrew (Dedicated 20+person), Fuels, Prevention",YES,Two different stations. Housing at both.,http://www.fs.usda.gov/nezperceclearwater/
+5,Pacific Southwest,MENDOCINO,GRINDSTONE,ELK CREEK,CALIFORNIA,"ELK CREEK, CALIFORNIA",,,,http://www.fs.usda.gov/mendocino/
+2,Rocky Mountain,PIKE AND SAN ISABEL,CIMARRON NATIONAL GRASSLAND,ELKHART,KANSAS,"ELKHART, KANSAS",,,,http://www.fs.usda.gov/psicc
+4,Intermountain,HUMBOLDT-TOIYABE,"MOUNTAIN CITY, RUBY MOUNTAINS AND JARBIDGE",ELKO,NEVADA,"ELKO, NEVADA",Hotshot Crew,YES,,http://www.fs.usda.gov/htnf
+4,Intermountain,HUMBOLDT-TOIYABE,ELY,ELY,NEVADA,"ELY, NEVADA","Engine, WFM",YES,,http://www.fs.usda.gov/htnf
+4,Intermountain,BOISE,EMMETT,EMMETT,IDAHO,"EMMETT, IDAHO","Engine, Hotshot Crew, Helitack, Fuels, Prevention",YES,,http://www.fs.usda.gov/boise
+1,Northern,BEAVERHEAD-DEERLODGE,MADISON,ENNIS,MONTANA,"ENNIS, MONTANA",,YES,,http://www.fs.usda.gov/bdnf
+6,Pacific Northwest,OKANOGAN-WENATCHEE,ENTIAT,ENTIAT,WASHINGTON,"ENTIAT, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , Hotshot Crew",YES,Housing is out of cell service and there isnâ€™t enough for everyone. Most rent a room or live out of vehicles.,http://www.fs.usda.gov/okawen
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,SNOQUALMIE,ENUMCLAW,WASHINGTON,"ENUMCLAW, WASHINGTON",,,,http://www.fs.usda.gov/mbs
+4,Intermountain,MANTI-LASAL,SANPETE,EPHRAIM,UTAH,"EPHRAIM, UTAH",,,,http://www.fs.usda.gov/mantilasal
+4,Intermountain,DIXIE,ESCALANTE,ESCALANTE,UTAH,"ESCALANTE, UTAH","Engine, IA Crew/Squad (4-10 person), Fuels",YES,,http://www.fs.usda.gov/dixie
+3,Southwestern,SANTA FE,ESPANOLA,ESPANOLA,NEW MEXICO,"ESPANOLA, NEW MEXICO",,,,https://www.fs.usda.gov/santafe/
+6,Pacific Northwest,MT. HOOD,CLACKAMAS RIVER,ESTACADA,OREGON,"ESTACADA, OREGON",,,,http://www.fs.usda.gov/mthood
+5,Pacific Southwest,SIX RIVERS,SO,EUREKA,CALIFORNIA,"EUREKA, CALIFORNIA",Engine,NO,,http://www.fs.usda.gov/srnf/
+1,Northern,KOOTENAI,REXFORD,EUREKA,MONTANA,"EUREKA, MONTANA","Engine, IA Crew/Squad (4-10 person), Fuels, Prevention",YES,Bunk house and rv pad available. Fire crew has priority for bunkhouse. ,http://www.fs.usda.gov/kootenai
+4,Intermountain,UINTA-WASATCH-CACHE,EVANSTON-MOUNTAIN VIEW,EVANSTON,WYOMING,"EVANSTON, WYOMING",,,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,SAWTOOTH,FAIRFIELD,FAIRFIELD,IDAHO,"FAIRFIELD, IDAHO",,,,http://www.fs.usda.gov/sawtooth
+2,Rocky Mountain,PIKE AND SAN ISABEL,SOUTH PARK,FAIRPLAY,COLORADO,"FAIRPLAY, COLORADO",,,,http://www.fs.usda.gov/psicc
+5,Pacific Southwest,LASSEN,HAT CREEK,FALL RIVER MILLS,CALIFORNIA,"FALL RIVER MILLS, CALIFORNIA",,,,http://www.fs.usda.gov/lassen
+5,Pacific Southwest,SAN BERNARDINO,MOUNTAINTOP,FAWNSKIN,CALIFORNIA,"FAWNSKIN, CALIFORNIA",Hotshot Crew,YES,,http://www.fs.usda.gov/sbnf/
+4,Intermountain,MANTI-LASAL,FERRON,FERRON,UTAH,"FERRON, UTAH",Engine,YES,"Engine could possibly be moved here. Housing might be available, as of right now housing is only for non-fire folks.",http://www.fs.usda.gov/mantilasal
+4,Intermountain,FISHLAKE,FILLMORE,FILLMORE,UTAH,"FILLMORE, UTAH",IA Crew/Squad (4-10 person),YES,,http://www.fs.usda.gov/fishlake
+3,Southwestern,COCONINO,FLAGSTAFF,FLAGSTAFF,ARIZONA,"FLAGSTAFF, ARIZONA","Engine, IA Crew/Squad (4-10 person), Hotshot Crew, Prevention",YES,The housing for Flagstaff and Mormon lake is 1 bunkhouse with a few shared rooms at the Mormon Lake Guard Station. 30 minute drive to Flagstaff. ,https://www.fs.usda.gov/coconino
+5,Pacific Southwest,TAHOE,AMERICAN RIVER,FOREST HILL,CALIFORNIA,"FOREST HILL, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+6,Pacific Northwest,OLYMPIC,PACIFIC,FORKS,WASHINGTON,"FORKS, WASHINGTON",,,,http://www.fs.usda.gov/olympic/
+2,Rocky Mountain,ARAPAHO AND ROOSEVELT,CANYON LAKES,FORT COLLINS,COLORADO,"FORT COLLINS, COLORADO",,,,http://www.fs.usda.gov/arp
+5,Pacific Southwest,KLAMATH,SCOTT-SALMON,FORT JONES,CALIFORNIA,"FORT JONES, CALIFORNIA","Engine, Hotshot Crew, WFM, Rappel, Prevention",YES,Often run out of room; WFM is type 2 as of 2021,http://www.fs.usda.gov/klamath
+2,Rocky Mountain,NEBRASKA,FT. PIERRE,FORT PIERRE,SOUTH DAKOTA,"FORT PIERRE, SOUTH DAKOTA",Engine,NO,,http://www.fs.usda.gov/nebraska
+1,Northern,KOOTENAI,FORTINE,FORTINE,MONTANA,"FORTINE, MONTANA","Engine, IA Crew/Squad (4-10 person), Fuels, Prevention",YES,Bunkhouse and rv pads available. Fortine is combined with Eureka. Fire crews bunk in Eureka. Fortine is mostly malita. ,http://www.fs.usda.gov/kootenai
+5,Pacific Southwest,LOS PADRES,MT. PINOS,FRAZIER PARK,CALIFORNIA,"FRAZIER PARK, CALIFORNIA","Engine, Helitack, Prevention",YES,,http://www.fs.usda.gov/lpnf
+3,Southwestern,KAIBAB,NORTH KAIBAB,FREDONIA,ARIZONA,"FREDONIA, ARIZONA",Engine,YES,"But housing and engines are at big springs, main office for the N. Kaibab is in Fredonia.",https://www.fs.usda.gov/kaibab
+1,Northern,CUSTER GALLATIN,GARDINER,GARDINER,MONTANA,"GARDINER, MONTANA",,,,http://www.fs.usda.gov/custergallatin
+5,Pacific Southwest,SIX RIVERS,GASQUET,GASQUET,CALIFORNIA,"GASQUET, CALIFORNIA","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/srnf/
+5,Pacific Southwest,ELDORADO,GEORGETOWN,GEORGETOWN,CALIFORNIA,"GEORGETOWN, CALIFORNIA",,,,http://www.fs.usda.gov/eldorado
+5,Pacific Southwest,ANGELES,SAN GABRIEL MOUNTAINS NM,GLENDORA,CALIFORNIA,"GLENDORA, CALIFORNIA",,,,http://www.fs.usda.gov/angeles
+3,Southwestern,GILA,GLENWOOD,GLENWOOD,NEW MEXICO,"GLENWOOD, NEW MEXICO",,,,https://www.fs.usda.gov/gila/
+6,Pacific Northwest,UMPQUA,NORTH UMPQUA,GLIDE,OREGON,"GLIDE, OREGON",Hotshot Crew,NO,Wolf Creek Hotshots based out of the Umpqua service center in Roseburg. No federal government housing available for shots. ,http://www.fs.usda.gov/umpqua
+3,Southwestern,TONTO,GLOBE,GLOBE,ARIZONA,"GLOBE, ARIZONA","Engine, Hotshot Crew",NO,,https://www.fs.usda.gov/tonto/
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,GOLD BEACH,GOLD BEACH,OREGON,"GOLD BEACH, OREGON","Engine, IA Crew/Squad (4-10 person), Fuels, Prevention",YES,"7 spots for temps in the fire program between 2 houses on the compound.- While housing is ""available"", last time I was there the housing was literally in the animal barns at the fairgrounds. The housing is horrifying, it's a sectioned off bit of an old barn run by the 4H, who treat their tenants like crap - they dumped trash on our porch, accused us of smoking weed in the bunkhouse (no one was stupid enough to smoke *inside*) and kicked us out for 2 weeks out of the year. There's available housing on the compound, but that needs to be kept empty in case a botanist or somebody important needs to stay a night or two.",http://www.fs.usda.gov/rogue-siskiyou/
+2,Rocky Mountain,ARAPAHO AND ROOSEVELT,SULPHUR,GRANBY,COLORADO,"GRANBY, COLORADO",,,,http://www.fs.usda.gov/arp
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",GRAND VALLEY,GRAND JUNCTION,COLORADO,"GRAND JUNCTION, COLORADO",WFM,NO,Unaweep WFM (BLM),http://www.fs.usda.gov/gmug
+1,Northern,NEZ PERCE-CLEARWATER,GRANGEVILLE AIR CENTER,GRANGEVILLE,IDAHO,"GRANGEVILLE, IDAHO","Smokejumper, Helitack",NO,,http://www.fs.usda.gov/nezperceclearwater/
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,,GRANTS PASS,OREGON,"GRANTS PASS, OREGON","WFM, Rappel",No,,http://www.fs.usda.gov/rogue-siskiyou/
+3,Southwestern,CIBOLA,MT. TAYLOR,GRANTS,NEW MEXICO,"GRANTS, NEW MEXICO",,,,https://www.fs.usda.gov/cibola
+4,Intermountain,ASHLEY,FLAMING GORGE/VERNAL,GREEN RIVER,WYOMING,"GREEN RIVER, WYOMING","Engine, Type 2/2IA Handcrew, WFM",NO,,http://www.fs.usda.gov/ashley
+2,Rocky Mountain,BIGHORN,MEDICINE WHEEL,GREYBULL,WYOMING,"GREYBULL, WYOMING","Engine, Hotshot Crew",YES,RV Hookups plus bunkhouse or FEMA Trailers ,http://www.fs.usda.gov/bighorn
+5,Pacific Southwest,ELDORADO,PACIFIC,GRIZZLY FLATS,CALIFORNIA,"GRIZZLY FLATS, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/eldorado
+5,Pacific Southwest,STANISLAUS,GROVELAND,GROVELAND,CALIFORNIA,"GROVELAND, CALIFORNIA",,,,http://www.fs.usda.gov/stanislaus/
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",GUNNISON,GUNNISON,COLORADO,"GUNNISON, COLORADO","Engine, IA Crew/Squad (4-10 person)",Yes,"Small amount of housing, 3 dorm style rooms about 10 miles from duty station with limited WiFi/AT&T service. ",http://www.fs.usda.gov/gmug
+6,Pacific Northwest,WALLOWA-WHITMAN,WHITMAN,HALFWAY,OREGON,"HALFWAY, OREGON","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/wallowa-whitman
+2,Rocky Mountain,NEBRASKA,BESSEY,HALSEY,NEBRASKA,"HALSEY, NEBRASKA",,,,http://www.fs.usda.gov/nebraska
+1,Northern,BITTERROOT,SO,HAMILTON,MONTANA,"HAMILTON, MONTANA",Helitack,NO,,http://www.fs.usda.gov/bitterroot
+5,Pacific Southwest,KLAMATH,HAPPY CAMP,HAPPY CAMP,CALIFORNIA,"HAPPY CAMP, CALIFORNIA","Engine, Type 2/2IA Handcrew, Helitack, Fuels, Prevention",YES,"In addition to barracks, quite a few gov-owned trailer pads",http://www.fs.usda.gov/klamath
+3,Southwestern,COCONINO,MOGOLLON RIM,HAPPY JACK,ARIZONA,"HAPPY JACK, ARIZONA","Engine, IA Crew/Squad (4-10 person), Hotshot Crew, Fuels, Prevention",YES,"The Coconino actually has two work locations on the Mogollon rim district. They call them both Happy Jack but it's actually Happy Jack and Blue Ridge. Happy Jack is about 40 minute drive from Flagstaff and Blue Ridge is about an hour drive.  ENGINES AT BOTH LOCATIONS, BLUE RIDGE IHC @ BLUE RIDGE",https://www.fs.usda.gov/coconino
+1,Northern,HELENA-LEWIS AND CLARK,MUSSELSHELL,HARLOWTON,MONTANA,"HARLOWTON, MONTANA",,,,http://www.fs.usda.gov/helena/
+5,Pacific Southwest,LASSEN,HAT CREEK,HAT CREEK,CALIFORNIA,"HAT CREEK, CALIFORNIA",,,,http://www.fs.usda.gov/lassen
+5,Pacific Southwest,STANISLAUS,CALAVERAS,HATHAWAY PINES,CALIFORNIA,"HATHAWAY PINES, CALIFORNIA",,,,http://www.fs.usda.gov/stanislaus/
+5,Pacific Southwest,SHASTA-TRINITY,HAYFORK,HAYFORK,CALIFORNIA,"HAYFORK, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+4,Intermountain,UINTA-WASATCH-CACHE,HEBER-KAMAS,HEBER CITY,UTAH,"HEBER CITY, UTAH",Engine,YES,,http://www.fs.usda.gov/uwcnf
+6,Pacific Northwest,SIUSLAW,HEBO,HEBO,OREGON,"HEBO, OREGON",WFM,YES,,http://www.fs.usda.gov/siuslaw
+1,Northern,HELENA-LEWIS AND CLARK,HELENA,HELENA,MONTANA,"HELENA, MONTANA","Engine, Hotshot Crew",NO,,http://www.fs.usda.gov/helena/
+6,Pacific Northwest,UMATILLA,HEPPNER,HEPPNER,OREGON,"HEPPNER, OREGON",,,,http://www.fs.usda.gov/umatilla
+3,Southwestern,CORONADO,SIERRA VISTA,HEREFORD,ARIZONA,"HEREFORD, ARIZONA",,,,https://www.fs.usda.gov/coronado
+6,Pacific Northwest,MALHEUR,EMIGRANT CREEK,HINES,OREGON,"HINES, OREGON","Engine, Type 2/2IA Handcrew (Dedicated 20+person)",YES,"4 FS engines, 2 type 6, 2 type 4
+One remote duty station (crow flat) usually houses just one engine and itâ€™s crew 
+Interagency zone so bunch of blm engines and a blm helitack out of town, and a usfw engine",http://www.fs.usda.gov/malheur
+6,Pacific Northwest,COLUMBIA RIVER GORGE NATIONAL SCENIC AREA,COLUMBIA RIVER GORGE NATIONAL SCENIC AREA,HOOD RIVER,OREGON,"HOOD RIVER, OREGON",,,,http://www.fs.usda.gov/crgnsa
+2,Rocky Mountain,NEBRASKA,FALL RIVER,HOT SPRINGS,SOUTH DAKOTA,"HOT SPRINGS, SOUTH DAKOTA",Engine,YES,Shared bunkhouse with two-person rooms.,http://www.fs.usda.gov/nebraska
+5,Pacific Southwest,SEQUOIA,HUME LAKE,HUME,CALIFORNIA,"HUME, CALIFORNIA",,,,http://www.fs.usda.gov/sequoia/
+1,Northern,FLATHEAD,HUNGRY HORSE,HUNGRY HORSE,MONTANA,"HUNGRY HORSE, MONTANA",Engine,YES,,http://www.fs.usda.gov/flathead
+1,Northern,FLATHEAD,SPOTTED BEAR,HUNGRY HORSE,MONTANA,"HUNGRY HORSE, MONTANA",,,,http://www.fs.usda.gov/flathead
+1,Northern,LOLO,NINEMILE,HUSON,MONTANA,"HUSON, MONTANA","Engine, IA Crew/Squad (4-10 person)",NO,,http://www.fs.usda.gov/lolo
+4,Intermountain,BOISE,IDAHO CITY,IDAHO CITY,IDAHO,"IDAHO CITY, IDAHO","Engine, Type 2/2IA Handcrew, Hotshot Crew, Prevention",YES,,http://www.fs.usda.gov/boise
+4,Intermountain,CARIBOU-TARGHEE,PALISADES,IDAHO FALLS,IDAHO,"IDAHO FALLS, IDAHO",,,,http://www.fs.usda.gov/ctnf
+2,Rocky Mountain,ARAPAHO AND ROOSEVELT,CLEAR CREEK,IDAHO SPRINGS,COLORADO,"IDAHO SPRINGS, COLORADO",,,,http://www.fs.usda.gov/arp
+6,Pacific Northwest,UMPQUA,DIAMOND LAKE,IDLEYLD PARK,OREGON,"IDLEYLD PARK, OREGON",Type 2/2IA Handcrew  (Dedicated 20+person),YES,,http://www.fs.usda.gov/umpqua
+5,Pacific Southwest,SAN BERNARDINO,SAN JACINTO,IDYLLWILD,CALIFORNIA,"IDYLLWILD, CALIFORNIA",,,,http://www.fs.usda.gov/sbnf/
+5,Pacific Southwest,INYO,MT. WHITNEY,INDEPENDENCE,CALIFORNIA,"INDEPENDENCE, CALIFORNIA",,,,http://www.fs.usda.gov/inyo/
+4,Intermountain,CARIBOU-TARGHEE,ASHTON/ISLAND PARK,ISLAND PARK,IDAHO,"ISLAND PARK, IDAHO",Type 2/2IA Handcrew,YES,,http://www.fs.usda.gov/ctnf
+4,Intermountain,BRIDGER-TETON,JACKSON,JACKSON,WYOMING,"JACKSON, WYOMING","Engine, Helitack",YES,Helitack is USFS/NPS interagency and shorthaul trained,http://www.fs.usda.gov/btnf
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,SISKIYOU MOUNTAINS,JACKSONVILLE,OREGON,"JACKSONVILLE, OREGON",,,,http://www.fs.usda.gov/rogue-siskiyou/
+3,Southwestern,KAIBAB,NORTH KAIBAB,JACOB LAKE,ARIZONA,"JACOB LAKE, ARIZONA","Engine, IA Crew/Squad (4-10 person), Prevention",YES,Housing: Three cabins and a bunch of trailer hookups. - Rumor is they're looking at turning the employee housing into overnight vacation rentals for tourists in the not to distant future,https://www.fs.usda.gov/kaibab
+3,Southwestern,SANTA FE,JEMEZ,JEMEZ SPRINGS,NEW MEXICO,"JEMEZ SPRINGS, NEW MEXICO",,,,https://www.fs.usda.gov/santafe/
+4,Intermountain,SAWTOOTH,SAWTOOTH SO,JEROME,IDAHO,"JEROME, IDAHO",Hotshot Crew,NO,,http://www.fs.usda.gov/sawtooth
+6,Pacific Northwest,MALHEUR,BLUE MOUNTAIN,JOHN DAY,OREGON,"JOHN DAY, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person), Rappel",YES,Housing for only about 8-10 firefighters!! ,http://www.fs.usda.gov/malheur
+6,Pacific Northwest,WALLOWA-WHITMAN,LA GRANDE,JOSEPH,OREGON,"JOSEPH, OREGON","Engine, IA Crew/Squad (4-10 person), WFM",YES,Fire shop is located in Enterprise.  Housing is old Sled Springs rappel base.,http://www.fs.usda.gov/wallowa-whitman
+5,Pacific Southwest,INYO,MONO LAKE,JUNE LAKE,CALIFORNIA,"JUNE LAKE, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/inyo/
+1,Northern,FLATHEAD,TALLY LAKE,KALISPELL,MONTANA,"KALISPELL, MONTANA",Engine,NO,,http://www.fs.usda.gov/flathead
+4,Intermountain,UINTA-WASATCH-CACHE,EVANSTON-MOUNTAIN VIEW,KAMAS,UTAH,"KAMAS, UTAH",,,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,UINTA-WASATCH-CACHE,HEBER-KAMAS,KAMAS,UTAH,"KAMAS, UTAH",,,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,BRIDGER-TETON,KEMMERER,KEMMERER,WYOMING,"KEMMERER, WYOMING",Engine,YES,,http://www.fs.usda.gov/btnf
+5,Pacific Southwest,SEQUOIA,KERN RIVER,KERNVILLE,CALIFORNIA,"KERNVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/sequoia/
+4,Intermountain,SAWTOOTH,KETCHUM,KETCHUM,IDAHO,"KETCHUM, IDAHO","Engine, Helitack, Prevention",YES,,http://www.fs.usda.gov/sawtooth
+6,Pacific Northwest,COLVILLE,THREE RIVERS,KETTLE FALLS,WASHINGTON,"KETTLE FALLS, WASHINGTON","Engine, IA Crew/Squad (4-10 person), Fuels",YES,,http://www.fs.usda.gov/colville
+5,Pacific Southwest,LOS PADRES,MONTEREY,KING CITY,CALIFORNIA,"KING CITY, CALIFORNIA",,,,http://www.fs.usda.gov/lpnf
+6,Pacific Northwest,FREMONT-WINEMA,KLAMATH,KLAMATH FALLS,OREGON,"KLAMATH FALLS, OREGON","Engine, Hotshot Crew",NO,Housing is cheap but not government supplied,http://www.fs.usda.gov/fremont-winema
+5,Pacific Southwest,KLAMATH,HAPPY CAMP,KLAMATH RIVER,CALIFORNIA,"KLAMATH RIVER, CALIFORNIA","Engine, Hotshot Crew, Prevention",YES,,http://www.fs.usda.gov/klamath
+1,Northern,NEZ PERCE-CLEARWATER,LOCHSA/POWELL,KOOSKIA,IDAHO,"KOOSKIA, IDAHO","Engine, IA Crew/Squad (4-10 person), WFM, Prevention",YES,,http://www.fs.usda.gov/nezperceclearwater/
+1,Northern,NEZ PERCE-CLEARWATER,MOOSE CREEK,KOOSKIA,IDAHO,"KOOSKIA, IDAHO","Engine, WFM",YES,The trails/other house has a rape shower,http://www.fs.usda.gov/nezperceclearwater/
+6,Pacific Northwest,WALLOWA-WHITMAN,LA GRANDE,LA GRANDE,OREGON,"LA GRANDE, OREGON",Rappel,NO,,http://www.fs.usda.gov/wallowa-whitman
+2,Rocky Mountain,RIO GRANDE,CONEJOS PEAK,LA JARA,COLORADO,"LA JARA, COLORADO",Engine,Yes,,http://www.fs.usda.gov/riogrande
+2,Rocky Mountain,PIKE AND SAN ISABEL,SOUTH PARK,LAKE GEORGE,COLORADO,"LAKE GEORGE, COLORADO",,,,http://www.fs.usda.gov/psicc
+5,Pacific Southwest,SEQUOIA,KERN RIVER,LAKE ISABELLA,CALIFORNIA,"LAKE ISABELLA, CALIFORNIA",,,,http://www.fs.usda.gov/sequoia/
+5,Pacific Southwest,LASSEN,EAGLE LAKE,LAKEHEAD,CALIFORNIA,"LAKEHEAD, CALIFORNIA",,,,http://www.fs.usda.gov/lassen
+5,Pacific Southwest,SHASTA-TRINITY,SHASTA-LAKE,LAKEHEAD,CALIFORNIA,"LAKEHEAD, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+3,Southwestern,APACHE-SITGREAVES,LAKESIDE,LAKESIDE,ARIZONA,"LAKESIDE, ARIZONA","Engine, Prevention",YES,"Crew quarters currently only has four, two-person units.",https://www.fs.usda.gov/asnf
+6,Pacific Northwest,FREMONT-WINEMA,LAKEVIEW,LAKEVIEW,OREGON,"LAKEVIEW, OREGON","Engine, Helitack, IA Crew/Squad (4-10 person)",YES,Housing is shared with rec and engines,http://www.fs.usda.gov/fremont-winema
+2,Rocky Mountain,SHOSHONE,WASHAKIE,LANDER,WYOMING,"LANDER, WYOMING","Engine, Fuels",YES,,http://www.fs.usda.gov/shoshone
+2,Rocky Mountain,MEDICINE BOW-ROUTT,LARAMIE,LARAMIE,WYOMING,"LARAMIE, WYOMING",,,,http://www.fs.usda.gov/mbr
+4,Intermountain,HUMBOLDT-TOIYABE,SPRING MOUNTAINS NATIONAL RECREATION AREA,LAS VEGAS,NEVADA,"LAS VEGAS, NEVADA",,,,http://www.fs.usda.gov/htnf
+3,Southwestern,SANTA FE,PECOS/LAS VEGAS,LAS VEGAS,NEW MEXICO,"LAS VEGAS, NEW MEXICO",,,,https://www.fs.usda.gov/santafe/
+4,Intermountain,SALMON AND CHALLIS,LEADORE,LEADORE,IDAHO,"LEADORE, IDAHO",,,,http://www.fs.usda.gov/scnf
+2,Rocky Mountain,PIKE AND SAN ISABEL,LEADVILLE,LEADVILLE,COLORADO,"LEADVILLE, COLORADO",,,,http://www.fs.usda.gov/psicc
+6,Pacific Northwest,OKANOGAN-WENATCHEE,WENATCHEE RIVER,LEAVENWORTH,WASHINGTON,"LEAVENWORTH, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , Fuels, Prevention",YES,,http://www.fs.usda.gov/okawen
+5,Pacific Southwest,INYO,MONO LAKE,LEE VINING,CALIFORNIA,"LEE VINING, CALIFORNIA",,,,http://www.fs.usda.gov/inyo/
+1,Northern,DAKOTA PRAIRIE GRASSLANDS,GRAND RIVER,LEMMON,SOUTH DAKOTA,"LEMMON, SOUTH DAKOTA",,,,http://www.fs.usda.gov/dpg/
+1,Northern,KOOTENAI,LIBBY,LIBBY,MONTANA,"LIBBY, MONTANA",,,,http://www.fs.usda.gov/kootenai
+1,Northern,HELENA-LEWIS AND CLARK,LINCOLN,LINCOLN,MONTANA,"LINCOLN, MONTANA","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/helena/
+1,Northern,DAKOTA PRAIRIE GRASSLANDS,SHEYENNE,LISBON,NORTH DAKOTA,"LISBON, NORTH DAKOTA",,,,http://www.fs.usda.gov/dpg/
+1,Northern,CUSTER GALLATIN,YELLOWSTONE,LIVINGSTON,MONTANA,"LIVINGSTON, MONTANA",Engine,NO,,http://www.fs.usda.gov/custergallatin
+4,Intermountain,FISHLAKE,FREMONT RIVER,LOA,UTAH,"LOA, UTAH",,,,http://www.fs.usda.gov/fishlake
+4,Intermountain,UINTA-WASATCH-CACHE,LOGAN,LOGAN,UTAH,"LOGAN, UTAH","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/uwcnf
+5,Pacific Southwest,INYO,MT. WHITNEY,LONE PINE,CALIFORNIA,"LONE PINE, CALIFORNIA",,,,http://www.fs.usda.gov/inyo/
+3,Southwestern,SANTA FE,INTERAGENCY FIRE CENTER,LOS ALAMOS,NEW MEXICO,"LOS ALAMOS, NEW MEXICO",Helitack,,,https://www.fs.usda.gov/santafe/
+4,Intermountain,BOISE,LOWMAN,LOWMAN,IDAHO,"LOWMAN, IDAHO","Engine, Type 2/2IA Handcrew (Dedicated 20+person)",YES,,http://www.fs.usda.gov/boise
+5,Pacific Southwest,TAHOE,SIERRAVILLE,LOYALTON,CALIFORNIA,"LOYALTON, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+5,Pacific Southwest,SAN BERNARDINO,FRONT COUNTRY,LYTLE CREEK,CALIFORNIA,"LYTLE CREEK, CALIFORNIA",,,,http://www.fs.usda.gov/sbnf/
+5,Pacific Southwest,SAN BERNARDINO,MOUNTAINTOP,LYTLE CREEK,CALIFORNIA,"LYTLE CREEK, CALIFORNIA",,,,http://www.fs.usda.gov/sbnf/
+5,Pacific Southwest,KLAMATH,GOOSENEST,MACDOEL,CALIFORNIA,"MACDOEL, CALIFORNIA","Engine, WFM, Fuels, Prevention, Tender",YES,,http://www.fs.usda.gov/klamath
+5,Pacific Southwest,MODOC,DEVILS GARDEN,MACDOEL,CALIFORNIA,"MACDOEL, CALIFORNIA",,,,http://www.fs.usda.gov/modoc
+4,Intermountain,SALMON AND CHALLIS,LOST RIVER,MACKAY,IDAHO,"MACKAY, IDAHO",Engine,YES,,http://www.fs.usda.gov/scnf
+5,Pacific Southwest,SIX RIVERS,MAD RIVER,MAD RIVER,CALIFORNIA,"MAD RIVER, CALIFORNIA",,,,http://www.fs.usda.gov/srnf/
+6,Pacific Northwest,CROOKED RIVER NATIONAL GRASSLAND,CROOKED RIVER NATIONAL GRASSLAND,MADRAS,OREGON,"MADRAS, OREGON",,,,https://www.fs.usda.gov/ochoco
+3,Southwestern,CIBOLA,MAGDALENA,MAGDALENA,NEW MEXICO,"MAGDALENA, NEW MEXICO","Engine, IA Crew/Squad (4-10 person), WFM",YES,,https://www.fs.usda.gov/cibola
+5,Pacific Southwest,INYO,MAMMOTH,MAMMOTH LAKES,CALIFORNIA,"MAMMOTH LAKES, CALIFORNIA",WFM,YES,,http://www.fs.usda.gov/inyo/
+5,Pacific Southwest,LASSEN,HAT CREEK,MANZANITA LAKE,CALIFORNIA,"MANZANITA LAKE, CALIFORNIA",,,,http://www.fs.usda.gov/lassen
+5,Pacific Southwest,SIERRA,BASS LAKE,MARIPOSA,CALIFORNIA,"MARIPOSA, CALIFORNIA",,,,http://www.fs.usda.gov/sierra/
+4,Intermountain,PAYETTE,KRASSEL,MCCALL,IDAHO,"MCCALL, IDAHO","WFM, Helitack",YES,,http://www.fs.usda.gov/payette
+4,Intermountain,PAYETTE,MCCALL,MCCALL,IDAHO,"MCCALL, IDAHO","Engine, WFM",YES,"Limited bunkhouse rooms available for around $150 per month. Trailer pads around $350. ""Married"" housing around $750 a month. All of the districts on the Payette offer housing.",http://www.fs.usda.gov/payette
+5,Pacific Southwest,SHASTA-TRINITY,MCCLOUD,MCCLOUD,CALIFORNIA,"MCCLOUD, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+6,Pacific Northwest,WILLAMETTE,MCKENZIE RIVER,MCKENZIE BRIDGE,OREGON,"MCKENZIE BRIDGE, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) ",YES,They have had a fuels crew in the past off and on,http://www.fs.usda.gov/willamette
+2,Rocky Mountain,WHITE RIVER,BLANCO,MEEKER,COLORADO,"MEEKER, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+5,Pacific Southwest,SAN BERNARDINO,FRONT COUNTRY,MENTONE,CALIFORNIA,"MENTONE, CALIFORNIA","Engine, Hotshot Crew, DOZER",YES,,http://www.fs.usda.gov/sbnf/
+3,Southwestern,TONTO,MESA,MESA,ARIZONA,"MESA, ARIZONA",,,,https://www.fs.usda.gov/tonto/
+6,Pacific Northwest,COLVILLE,SULLIVAN LAKE,METALINE FALLS,WASHINGTON,"METALINE FALLS, WASHINGTON",IA Crew/Squad (4-10 person),YES,,http://www.fs.usda.gov/colville
+3,Southwestern,GILA,WILDERNESS,MIMBRES,NEW MEXICO,"MIMBRES, NEW MEXICO","Engine, IA Crew/Squad (4-10 person)",YES,,https://www.fs.usda.gov/gila/
+2,Rocky Mountain,WHITE RIVER,HOLY CROSS,MINTURN,COLORADO,"MINTURN, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+1,Northern,LOLO,MISSOULA,MISSOULA,MONTANA,"MISSOULA, MONTANA","Engine, Type 2/2IA Handcrew (Dedicated 20+person), IA Crew/Squad (4-10 person), Hotshot Crew, WFM, Helitack, Rappel, Fuels, Prevention",YES,,http://www.fs.usda.gov/lolo
+5,Pacific Southwest,STANISLAUS,MIWOK,MI-WUK VILLAGE,CALIFORNIA,"MI-WUK VILLAGE, CALIFORNIA",Hotshot Crew,YES,,http://www.fs.usda.gov/stanislaus/
+4,Intermountain,MANTI-LASAL,MOAB,MOAB,UTAH,"MOAB, UTAH","Engine, Fuels",NO,,http://www.fs.usda.gov/mantilasal
+4,Intermountain,MANTI-LASAL,MONTICELLO,MONTICELLO,UTAH,"MONTICELLO, UTAH","Engine, WFM",YES,,http://www.fs.usda.gov/mantilasal
+4,Intermountain,CARIBOU-TARGHEE,MONTPELIER,MONTPELIER,IDAHO,"MONTPELIER, IDAHO",Engine,YES,,http://www.fs.usda.gov/ctnf
+4,Intermountain,CARIBOU-TARGHEE,SODA SPRINGS,MONTPELIER,IDAHO,"MONTPELIER, IDAHO",,,,http://www.fs.usda.gov/ctnf
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",OURAY,MONTROSE,COLORADO,"MONTROSE, COLORADO",,,,http://www.fs.usda.gov/gmug
+2,Rocky Mountain,PIKE AND SAN ISABEL,PIKES PEAK,MONUMENT,COLORADO,"MONUMENT, COLORADO","Hotshot Crew, Helitack",YES,,http://www.fs.usda.gov/psicc
+1,Northern,NEZ PERCE-CLEARWATER,,MOOSE CREEK,IDAHO,"MOOSE CREEK, IDAHO","Engine, WFM",YES,,http://www.fs.usda.gov/nezperceclearwater/
+4,Intermountain,BRIDGER-TETON,BLACK ROCK,MORAN,WYOMING,"MORAN, WYOMING",WFM,YES,,http://www.fs.usda.gov/btnf
+3,Southwestern,COCONINO,FLAGSTAFF,MORMON LAKE,ARIZONA,"MORMON LAKE, ARIZONA",,,,https://www.fs.usda.gov/coconino
+5,Pacific Southwest,SHASTA-TRINITY,MT. SHASTA,MOUNT SHASTA,CALIFORNIA,"MOUNT SHASTA, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+5,Pacific Southwest,SHASTA-TRINITY,MCCLOUD,MOUNTAIN GATE,CALIFORNIA,"MOUNTAIN GATE, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+4,Intermountain,UINTA-WASATCH-CACHE,OGDEN,MOUNTAIN GREEN,UTAH,"MOUNTAIN GREEN, UTAH",Helitack,NO,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,BOISE,MOUNTAIN HOME,MOUNTAIN HOME,IDAHO,"MOUNTAIN HOME, IDAHO","Engine, IA Crew/Squad (4-10 person), Rappel, Prevention",YES,Bunkhouse is out at the helibase on Lucky Peak Reservoir ,http://www.fs.usda.gov/boise
+4,Intermountain,UINTA-WASATCH-CACHE,EVANSTON-MOUNTAIN VIEW,MOUNTAIN VIEW,WYOMING,"MOUNTAIN VIEW, WYOMING",Engine,YES,,http://www.fs.usda.gov/uwcnf
+3,Southwestern,CIBOLA,MOUNTAINAIR,MOUNTAINAIR,NEW MEXICO,"MOUNTAINAIR, NEW MEXICO",,,,https://www.fs.usda.gov/cibola
+6,Pacific Northwest,OKANOGAN-WENATCHEE,NACHES,NACHES,WASHINGTON,"NACHES, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person)Prevention",YES,,http://www.fs.usda.gov/okawen
+1,Northern,HELENA-LEWIS AND CLARK,BELT CREEK,NEIHART,MONTANA,"NEIHART, MONTANA",,,,http://www.fs.usda.gov/helena/
+5,Pacific Southwest,TAHOE,NEVADA CITY,NEVADA CITY,CALIFORNIA,"NEVADA CITY, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+4,Intermountain,PAYETTE,NEW MEADOWS,NEW MEADOWS,IDAHO,"NEW MEADOWS, IDAHO","Rappel, Engine",YES,,http://www.fs.usda.gov/payette
+2,Rocky Mountain,BLACK HILLS,HELL CANYON,NEWCASTLE,WYOMING,"NEWCASTLE, WYOMING",,,,http://www.fs.usda.gov/blackhills
+6,Pacific Northwest,COLVILLE,NEWPORT,NEWPORT,WASHINGTON,"NEWPORT, WASHINGTON",,,,http://www.fs.usda.gov/colville
+1,Northern,LOLO,SUPERIOR,NINEMILE,MONTANA,"NINEMILE, MONTANA",Engine,NO,,http://www.fs.usda.gov/lolo
+3,Southwestern,CORONADO,NOGALES,NOGALES,ARIZONA,"NOGALES, ARIZONA",,,,https://www.fs.usda.gov/coronado
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,SNOQUALMIE,NORTH BEND,WASHINGTON,"NORTH BEND, WASHINGTON",Engine,YES,,http://www.fs.usda.gov/mbs
+5,Pacific Southwest,SIERRA,BASS LAKE,NORTH FORK,CALIFORNIA,"NORTH FORK, CALIFORNIA",,,,http://www.fs.usda.gov/sierra/
+4,Intermountain,SALMON AND CHALLIS,NORTH FORK,NORTH FORK,IDAHO,"NORTH FORK, IDAHO",,,,http://www.fs.usda.gov/scnf
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",NORWOOD,NORWOOD,COLORADO,"NORWOOD, COLORADO",,,,http://www.fs.usda.gov/gmug
+5,Pacific Southwest,SIERRA,BASS LAKE,OAKHURST,CALIFORNIA,"OAKHURST, CALIFORNIA",Hotshot Crew,YES,,http://www.fs.usda.gov/sierra/
+4,Intermountain,UINTA-WASATCH-CACHE,OGDEN,OGDEN,UTAH,"OGDEN, UTAH","Engine, Type 2/2IA Handcrew (Dedicated 20+person), Fuels",NO,,http://www.fs.usda.gov/uwcnf
+5,Pacific Southwest,LOS PADRES,OJAI,OJAI,CALIFORNIA,"OJAI, CALIFORNIA",,,,http://www.fs.usda.gov/lpnf
+5,Pacific Southwest,LASSEN,HAT CREEK,OLD STATION,CALIFORNIA,"OLD STATION, CALIFORNIA",,,,http://www.fs.usda.gov/lassen
+5,Pacific Southwest,SIX RIVERS,ORLEANS,ORLEANS,CALIFORNIA,"ORLEANS, CALIFORNIA","Engine, WFM, Fuels, Prevention",YES,,http://www.fs.usda.gov/srnf/
+1,Northern,NEZ PERCE-CLEARWATER,NORTH FORK,OROFINO,IDAHO,"OROFINO, IDAHO","Engine, IA Crew/Squad (4-10 person), Fuels",YES,,http://www.fs.usda.gov/nezperceclearwater/
+5,Pacific Southwest,PLUMAS,FEATHER RIVER,OROVILLE,CALIFORNIA,"OROVILLE, CALIFORNIA","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/plumas/
+3,Southwestern,APACHE-SITGREAVES,BLACK MESA,OVERGAARD,ARIZONA,"OVERGAARD, ARIZONA","Engine, IA Crew/Squad (4-10 person), Hotshot Crew, Prevention",YES,,https://www.fs.usda.gov/asnf
+2,Rocky Mountain,SAN JUAN,PAGOSA,PAGOSA SPGS,COLORADO,"PAGOSA SPGS, COLORADO","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/sanjuan
+6,Pacific Northwest,FREMONT-WINEMA,PAISLEY,PAISLEY,OREGON,"PAISLEY, OREGON",,,,http://www.fs.usda.gov/fremont-winema
+5,Pacific Southwest,SAN BERNARDINO,SAN JACINTO,PALM DESERT,CALIFORNIA,"PALM DESERT, CALIFORNIA",,,,http://www.fs.usda.gov/sbnf/
+4,Intermountain,DIXIE,POWELL,PANGUITCH,UTAH,"PANGUITCH, UTAH","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/dixie
+2,Rocky Mountain,"GRAND MESA, UNCOMPAHGRE AND GUNNISON",PAONIA,PAONIA,COLORADO,"PAONIA, COLORADO",,,,http://www.fs.usda.gov/gmug
+6,Pacific Northwest,MT. HOOD,HOOD RIVER,PARKDALE,OREGON,"PARKDALE, OREGON",,,,http://www.fs.usda.gov/mthood
+5,Pacific Southwest,MENDOCINO,GRINDSTONE,PASKENTA,CALIFORNIA,"PASKENTA, CALIFORNIA",,,,http://www.fs.usda.gov/mendocino/
+3,Southwestern,TONTO,PAYSON,PAYSON,ARIZONA,"PAYSON, ARIZONA","Engine, Hotshot Crew, Helitack, Fuels",NO,"At least for now, young is not staffed separately from Payson. Also, lakeside is Apache Sitgreaves ",https://www.fs.usda.gov/tonto/
+3,Southwestern,SANTA FE,PECOS/LAS VEGAS,PECOS,NEW MEXICO,"PECOS, NEW MEXICO",,,,https://www.fs.usda.gov/santafe/
+3,Southwestern,CARSON,CAMINO REAL,PENASCO,NEW MEXICO,"PENASCO, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+1,Northern,BEAVERHEAD-DEERLODGE,PINTLER,PHILIPSBURG,MONTANA,"PHILIPSBURG, MONTANA",Engine,YES,,http://www.fs.usda.gov/bdnf
+5,Pacific Southwest,STANISLAUS,SUMMIT,PINECREST,CALIFORNIA,"PINECREST, CALIFORNIA",,,,http://www.fs.usda.gov/stanislaus/
+5,Pacific Southwest,TAHOE,AMERICAN RIVER,PINECREST,CALIFORNIA,"PINECREST, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+4,Intermountain,BRIDGER-TETON,BIG PINEY,PINEDALE,WYOMING,"PINEDALE, WYOMING",Engine,YES,,http://www.fs.usda.gov/btnf
+5,Pacific Southwest,ELDORADO,AMADOR,PIONEER,CALIFORNIA,"PIONEER, CALIFORNIA",,,,http://www.fs.usda.gov/eldorado
+1,Northern,LOLO,PLAINS/THOMPSON FALLS,PLAINS,MONTANA,"PLAINS, MONTANA","Engine, Hotshot Crew, Fuels",YES,,http://www.fs.usda.gov/lolo
+5,Pacific Southwest,SHASTA-TRINITY,YOLLA BOLLA,PLATINA,CALIFORNIA,"PLATINA, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+4,Intermountain,UINTA-WASATCH-CACHE,PLEASANT GROVE,PLEASANT GROVE,UTAH,"PLEASANT GROVE, UTAH",Engine,NO,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,CARIBOU-TARGHEE,WESTSIDE,POCATELLO,IDAHO,"POCATELLO, IDAHO","Engine, Helitack, Fuels",NO,,http://www.fs.usda.gov/ctnf
+5,Pacific Southwest,ELDORADO,PACIFIC,POLLOCK PINES,CALIFORNIA,"POLLOCK PINES, CALIFORNIA","Helitack, Engine, Hotshot Crew, Type 2/2IA Handcrew (Dedicated 20+person), IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/eldorado
+6,Pacific Northwest,UMATILLA,POMEROY,POMEROY,WASHINGTON,"POMEROY, WASHINGTON",,,,http://www.fs.usda.gov/umatilla
+1,Northern,NEZ PERCE-CLEARWATER,PALOUSE,POTLATCH,IDAHO,"POTLATCH, IDAHO",Type 2/2IA Handcrew,YES,,http://www.fs.usda.gov/nezperceclearwater/
+1,Northern,NEZ PERCE-CLEARWATER,LOCHSA/POWELL,POWELL,IDAHO,"POWELL, IDAHO","Engine, IA Crew/Squad (4-10 person)",YES,No cell service,http://www.fs.usda.gov/nezperceclearwater/
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,POWERS,POWERS,OREGON,"POWERS, OREGON",,,,http://www.fs.usda.gov/rogue-siskiyou/
+6,Pacific Northwest,MALHEUR,PRAIRIE CITY,PRAIRIE CITY,OREGON,"PRAIRIE CITY, OREGON",Type 2/2IA Handcrew  (Dedicated 20+person) ,YES,It was pretty solid by Dixie Pass,http://www.fs.usda.gov/malheur
+5,Pacific Southwest,SIERRA,HIGH SIERRA,PRATHER,CALIFORNIA,"PRATHER, CALIFORNIA",,,,http://www.fs.usda.gov/sierra/
+3,Southwestern,PRESCOTT,PRESCOTT FIRE CENTER,PRESCOTT,ARIZONA,"PRESCOTT, ARIZONA","Engine, Hotshot Crew, Helitack, Prevention",NO,,https://www.fs.usda.gov/prescott
+4,Intermountain,MANTI-LASAL,PRICE,PRICE,UTAH,"PRICE, UTAH",Engine,NO,A few decent-ish rentals around town.,http://www.fs.usda.gov/mantilasal
+1,Northern,IDAHO PANHANDLE,,PRIEST LAKE,IDAHO,"PRIEST LAKE, IDAHO",Engine,YES,,https://www.fs.usda.gov/ipnf/
+1,Northern,IDAHO PANHANDLE,PRIEST LAKE,PRIEST RIVER,IDAHO,"PRIEST RIVER, IDAHO",,,,https://www.fs.usda.gov/ipnf/
+6,Pacific Northwest,OCHOCO,LOOKOUT MOUNTAIN,PRINEVILLE,OREGON,"PRINEVILLE, OREGON",,,,https://www.fs.usda.gov/ochoco
+6,Pacific Northwest,OCHOCO,PAULINA,PRINEVILLE,OREGON,"PRINEVILLE, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , IA Crew/Squad (4-10 person), Hotshot Crew, WFM, Rappel, Fuels",YES,Housing is 30+ min from station with no cell service. Bunkhouses may now have internet-    Bunkhouses by the old Ochoco Ranger Station,https://www.fs.usda.gov/ochoco
+6,Pacific Northwest,ROGUE RIVER-SISKIYOU,HIGH CASCADES,PROSPECT,OREGON,"PROSPECT, OREGON","IA Crew/Squad (4-10 person), Hotshot Crew, Fuels, Prevention",YES,,http://www.fs.usda.gov/rogue-siskiyou/
+3,Southwestern,GILA,QUEMADO,QUEMADO,NEW MEXICO,"QUEMADO, NEW MEXICO","Engine, WFM",YES,,https://www.fs.usda.gov/gila/
+3,Southwestern,CARSON,QUESTA,QUESTA,NEW MEXICO,"QUESTA, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+6,Pacific Northwest,OLYMPIC,HOOD CANAL,QUILCENE,WASHINGTON,"QUILCENE, WASHINGTON",,,,http://www.fs.usda.gov/olympic/
+6,Pacific Northwest,OLYMPIC,PACIFIC,QUINAULT,WASHINGTON,"QUINAULT, WASHINGTON",,,,http://www.fs.usda.gov/olympic/
+5,Pacific Southwest,PLUMAS,MT HOUGH,QUINCY,CALIFORNIA,"QUINCY, CALIFORNIA","Engine, Hotshot Crew, Helitack, Fuels, Prevention",YES,"Housing on site pretty nice, also Greenville and Belden (Gansner Bar) duty stations have housing.",http://www.fs.usda.gov/plumas/
+5,Pacific Southwest,CLEVELAND,PALOMAR,RAMONA,CALIFORNIA,"RAMONA, CALIFORNIA",,,,http://www.fs.usda.gov/cleveland
+6,Pacific Northwest,GIFFORD PINCHOT,COWLITZ VALLEY,RANDLE,WASHINGTON,"RANDLE, WASHINGTON","Type 2/2IA Handcrew  (Dedicated 20+person), IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/giffordpinchot
+2,Rocky Mountain,BLACK HILLS,MYSTIC,RAPID CITY,SOUTH DAKOTA,"RAPID CITY, SOUTH DAKOTA",Engine,Yes,"Bunkhouses located in Hill City, 45min from Rapid City",http://www.fs.usda.gov/blackhills
+1,Northern,CUSTER GALLATIN,BEARTOOTH,RED LODGE,MONTANA,"RED LODGE, MONTANA",,,,http://www.fs.usda.gov/custergallatin
+5,Pacific Southwest,SHASTA-TRINITY,REDDING AIR CENTER,REDDING,CALIFORNIA,"REDDING, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+6,Pacific Northwest,DESCHUTES,REDMOND AIR CENTER,REDMOND,OREGON,"REDMOND, OREGON",smokejumper,YES,,http://www.fs.usda.gov/centraloregon
+6,Pacific Northwest,SIUSLAW,OREGON DUNES NATIONAL RECREATION AREA,REEDSPORT,OREGON,"REEDSPORT, OREGON",Engine,NO,,http://www.fs.usda.gov/siuslaw
+6,Pacific Northwest,COLVILLE,REPUBLIC,REPUBLIC,WASHINGTON,"REPUBLIC, WASHINGTON",Engine,NO,,http://www.fs.usda.gov/colville
+3,Southwestern,GILA,RESERVE,RESERVE,NEW MEXICO,"RESERVE, NEW MEXICO","Engine, HOTSHOT CREW",YES,Housing available at nearby Luna guard station. GILA IHC at Negrito Firebase wayyy outside of town,https://www.fs.usda.gov/gila/
+2,Rocky Mountain,WHITE RIVER,RIFLE,RIFLE,COLORADO,"RIFLE, COLORADO","Engine, WFM, Helitack",YES,"The helitack crew is very dialed, but you will likely not leave the district.",http://www.fs.usda.gov/whiteriver
+6,Pacific Northwest,WALLOWA-WHITMAN,HELLS CANYON NATIONAL RECREATION AREA,RIGGINS,IDAHO,"RIGGINS, IDAHO",,,,http://www.fs.usda.gov/wallowa-whitman
+3,Southwestern,TONTO,TONTO BASIN,ROOSEVELT,ARIZONA,"ROOSEVELT, ARIZONA",Engine,YES,,https://www.fs.usda.gov/tonto/
+3,Southwestern,LINCOLN,SMOKEY BEAR,RUIDOSO,NEW MEXICO,"RUIDOSO, NEW MEXICO",,,,https://www.fs.usda.gov/lincoln
+3,Southwestern,LINCOLN,SACRAMENTO,SACRAMENTO,NEW MEXICO,"SACRAMENTO, NEW MEXICO",Hotshot Crew,YES,,https://www.fs.usda.gov/lincoln
+3,Southwestern,CORONADO,SAFFORD,SAFFORD,ARIZONA,"SAFFORD, ARIZONA",Engine,NO,,https://www.fs.usda.gov/coronado
+2,Rocky Mountain,RIO GRANDE,SAGUACHE,SAGUACHE,COLORADO,"SAGUACHE, COLORADO",,,,http://www.fs.usda.gov/riogrande
+2,Rocky Mountain,PIKE AND SAN ISABEL,SALIDA,SALIDA,COLORADO,"SALIDA, COLORADO",,,,http://www.fs.usda.gov/psicc
+4,Intermountain,SALMON AND CHALLIS,SALMON AND COBALT,SALMON,IDAHO,"SALMON, IDAHO",Rappel,NO,,http://www.fs.usda.gov/scnf
+4,Intermountain,UINTA-WASATCH-CACHE,SALT LAKE,SALT LAKE CITY,UTAH,"SALT LAKE CITY, UTAH","Engine, Type 2/2IA Handcrew, IA Crew/Squad (4-10 person), Fuels",NO,,http://www.fs.usda.gov/uwcnf
+5,Pacific Southwest,SIX RIVERS,LOWER TRINITY,SALYER,CALIFORNIA,"SALYER, CALIFORNIA",Engine,YES,"There are also barracks at Ti bar, Orleans and Oak Bottom as if last year. (All managed in the six rivers ORD) Gasquet should still have barracks but I haven't been there in a couple years.",http://www.fs.usda.gov/srnf/
+5,Pacific Southwest,ANGELES,LOS ANGELES GATEWAY,SAN FERNANDO,CALIFORNIA,"SAN FERNANDO, CALIFORNIA","Engine, Hotshot Crew",YES,The San Fernando or LA Gateway duty location on The Angeles has 10 type 3 engines and 3 hotshot crews 7 of the 10 stations have barracks ,http://www.fs.usda.gov/angeles
+1,Northern,IDAHO PANHANDLE,SANDPOINT,SANDPOINT,IDAHO,"SANDPOINT, IDAHO",WFM,NO,,https://www.fs.usda.gov/ipnf/
+5,Pacific Southwest,LOS PADRES,SANTA BARBARA,SANTA BARBARA,CALIFORNIA,"SANTA BARBARA, CALIFORNIA",Helitack,NO,Santa Ynez?,http://www.fs.usda.gov/lpnf
+3,Southwestern,SANTA FE,ESPANOLA,SANTA FE,NEW MEXICO,"SANTA FE, NEW MEXICO",Hotshot Crew,NO,,https://www.fs.usda.gov/santafe/
+3,Southwestern,SANTA FE,SO,SANTA FE,NEW MEXICO,"SANTA FE, NEW MEXICO",,,,https://www.fs.usda.gov/santafe/
+5,Pacific Southwest,LOS PADRES,SANTA LUCIA,SANTA MARIA,CALIFORNIA,"SANTA MARIA, CALIFORNIA",,,,http://www.fs.usda.gov/lpnf
+2,Rocky Mountain,MEDICINE BOW-ROUTT,BRUSH CREEK-HAYDEN,SARATOGA,WYOMING,"SARATOGA, WYOMING",,,,http://www.fs.usda.gov/mbr
+5,Pacific Southwest,KLAMATH,SCOTT-SALMON,SAWYERS BAR,CALIFORNIA,"SAWYERS BAR, CALIFORNIA","Engine, Hotshot Crew",YES,2021 season has issues with generators powering compound. Salmon River Hotshots have moved to Fort Jones Station (may become a permanet switch). Engine 345 still staffs compound ,http://www.fs.usda.gov/klamath
+3,Southwestern,TONTO,CAVE CREEK,SCOTTSDALE,ARIZONA,"SCOTTSDALE, ARIZONA",,,,https://www.fs.usda.gov/tonto/
+3,Southwestern,COCONINO,RED ROCK,SEDONA,ARIZONA,"SEDONA, ARIZONA",,,,https://www.fs.usda.gov/coconino
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,MT. BAKER,SEDRO WOOLLEY,WASHINGTON,"SEDRO WOOLLEY, WASHINGTON",Hotshot Crew,YES,,http://www.fs.usda.gov/mbs
+1,Northern,LOLO,SEELEY,SEELEY LAKE,MONTANA,"SEELEY LAKE, MONTANA",Engine,YES,,http://www.fs.usda.gov/lolo
+5,Pacific Southwest,KLAMATH,HAPPY CAMP,SEIAD VALLEY,CALIFORNIA,"SEIAD VALLEY, CALIFORNIA",Engine,YES,,http://www.fs.usda.gov/klamath
+2,Rocky Mountain,BIGHORN,TONGUE,SHERIDAN,WYOMING,"SHERIDAN, WYOMING","Engine, Prevention",YES,,http://www.fs.usda.gov/bighorn
+5,Pacific Southwest,TAHOE,SIERRAVILLE,SIERRAVILLE,CALIFORNIA,"SIERRAVILLE, CALIFORNIA",,,,https://www.fs.usda.gov/tahoe/
+3,Southwestern,GILA,SILVER CITY,SILVER CITY,NEW MEXICO,"SILVER CITY, NEW MEXICO",Hotshot Crew,YES,,https://www.fs.usda.gov/gila/
+6,Pacific Northwest,FREMONT-WINEMA,SILVER LAKE,SILVER LAKE,OREGON,"SILVER LAKE, OREGON",Engine,YES,,http://www.fs.usda.gov/fremont-winema
+2,Rocky Mountain,WHITE RIVER,DILLON,SILVERTHORNE,COLORADO,"SILVERTHORNE, COLORADO",,,,http://www.fs.usda.gov/whiteriver
+6,Pacific Northwest,DESCHUTES,SISTERS,SISTERS,OREGON,"SISTERS, OREGON",WFM,YES,,http://www.fs.usda.gov/centraloregon
+6,Pacific Northwest,MT. BAKER-SNOQUALMIE,SKYKOMISH,SKYKOMISH,WASHINGTON,"SKYKOMISH, WASHINGTON",,,,http://www.fs.usda.gov/mbs
+1,Northern,IDAHO PANHANDLE,COEUR D ALENE RIVER,SMELTERVILLE,IDAHO,"SMELTERVILLE, IDAHO",,,,https://www.fs.usda.gov/ipnf/
+5,Pacific Southwest,TAHOE,TRUCKEE,SODA SPRINGS,CALIFORNIA,"SODA SPRINGS, CALIFORNIA",Engine,YES,,https://www.fs.usda.gov/tahoe/
+4,Intermountain,CARIBOU-TARGHEE,SODA SPRINGS,SODA SPRINGS,IDAHO,"SODA SPRINGS, IDAHO",,,,http://www.fs.usda.gov/ctnf
+5,Pacific Southwest,LAKE TAHOE BASIN MANAGEMENT UNIT,LAKE TAHOE BASIN MANAGEMENT UNIT,SOUTH LAKE TAHOE,CALIFORNIA,"SOUTH LAKE TAHOE, CALIFORNIA",,,,http://www.fs.usda.gov/ltbmu/
+4,Intermountain,UINTA-WASATCH-CACHE,OGDEN,SOUTH WEBER,UTAH,"SOUTH WEBER, UTAH","Engine, Type 2/2IA Handcrew, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/uwcnf
+4,Intermountain,UINTA-WASATCH-CACHE,SPANISH FORK,SPANISH FORK,UTAH,"SPANISH FORK, UTAH","Engine, IA Crew/Squad (4-10 person)",NO,,http://www.fs.usda.gov/uwcnf
+2,Rocky Mountain,BLACK HILLS,NORTHERN HILLS,SPEARFISH,SOUTH DAKOTA,"SPEARFISH, SOUTH DAKOTA",,,,http://www.fs.usda.gov/blackhills
+1,Northern,FLATHEAD,SPOTTED BEAR,SPOTTED BEAR,MONTANA,"SPOTTED BEAR, MONTANA","Engine, WFM",YES,,http://www.fs.usda.gov/flathead
+3,Southwestern,APACHE-SITGREAVES,SPRINGERVILLE,SPRINGERVILLE,ARIZONA,"SPRINGERVILLE, ARIZONA",,,,https://www.fs.usda.gov/asnf
+2,Rocky Mountain,PIKE AND SAN ISABEL,COMANCHE NATIONAL GRASSLAND,SPRINGFIELD,COLORADO,"SPRINGFIELD, COLORADO",Engine,Yes,,http://www.fs.usda.gov/psicc
+5,Pacific Southwest,SEQUOIA,WESTERN DIVIDE,SPRINGVILLE,CALIFORNIA,"SPRINGVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/sequoia/
+4,Intermountain,DIXIE,PINE VALLEY,ST GEORGE,UTAH,"ST GEORGE, UTAH",Engine,NO,,http://www.fs.usda.gov/dixie
+1,Northern,IDAHO PANHANDLE,ST. JOE,ST. MARIES,IDAHO,"ST. MARIES, IDAHO",Engine,NO,,https://www.fs.usda.gov/ipnf/
+1,Northern,HELENA-LEWIS AND CLARK,JUDITH,STANFORD,MONTANA,"STANFORD, MONTANA",,,,http://www.fs.usda.gov/helena/
+4,Intermountain,SAWTOOTH,SAWTOOTH NATIONAL RECREATION AREA,STANLEY,IDAHO,"STANLEY, IDAHO","Engine, IA Crew/Squad (4-10 person)",YES,"Bunkhouse first seasonals, FEMA trailers for perms, limited year round housing ",http://www.fs.usda.gov/sawtooth
+2,Rocky Mountain,MEDICINE BOW-ROUTT,HAHNS PEAK-BEARS EARS,STEAMBOAT SPGS,COLORADO,"STEAMBOAT SPGS, COLORADO",WFM,YES,"small 10 person bunkhouse, always fills up quick from steeeep local housing prices",http://www.fs.usda.gov/mbr
+1,Northern,BITTERROOT,STEVENSVILLE,STEVENSVILLE,MONTANA,"STEVENSVILLE, MONTANA",Engine,YES,,http://www.fs.usda.gov/bitterroot
+5,Pacific Southwest,MENDOCINO,GRINDSTONE,STONYFORD,CALIFORNIA,"STONYFORD, CALIFORNIA","Engine, Hotshot Crew",YES,Housing is often at capacity,http://www.fs.usda.gov/mendocino/
+1,Northern,BITTERROOT,SULA,SULA,MONTANA,"SULA, MONTANA","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/bitterroot
+2,Rocky Mountain,BLACK HILLS,BEARLODGE,SUNDANCE,WYOMING,"SUNDANCE, WYOMING",,,,http://www.fs.usda.gov/blackhills
+1,Northern,LOLO,SUPERIOR,SUPERIOR,MONTANA,"SUPERIOR, MONTANA",Engine,YES,,http://www.fs.usda.gov/lolo
+5,Pacific Southwest,LASSEN,EAGLE LAKE,SUSANVILLE,CALIFORNIA,"SUSANVILLE, CALIFORNIA","Engine, Hotshot Crew, Prevention",YES,,http://www.fs.usda.gov/lassen
+4,Intermountain,CARIBOU-TARGHEE,PALISADES,SWAN VALLEY,IDAHO,"SWAN VALLEY, IDAHO","Engine, Helitack",YES,,http://www.fs.usda.gov/ctnf
+6,Pacific Northwest,WILLAMETTE,SWEET HOME,SWEET HOME,OREGON,"SWEET HOME, OREGON",,,,http://www.fs.usda.gov/willamette
+3,Southwestern,CARSON,SO,TAOS,NEW MEXICO,"TAOS, NEW MEXICO",Hotshot Crew,YES,,https://www.fs.usda.gov/carson
+3,Southwestern,CIBOLA,SANDIA,TIJERAS,NEW MEXICO,"TIJERAS, NEW MEXICO",,,,https://www.fs.usda.gov/cibola
+6,Pacific Northwest,UMPQUA,TILLER,TILLER,OREGON,"TILLER, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , Fuels, Prevention",YES,,http://www.fs.usda.gov/umpqua
+6,Pacific Northwest,OKANOGAN-WENATCHEE,TONASKET,TONASKET,WASHINGTON,"TONASKET, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , Fuels, Prevention",NO,,http://www.fs.usda.gov/okawen
+4,Intermountain,HUMBOLDT-TOIYABE,AUSTIN/TONOPAH,TONOPAH,NEVADA,"TONOPAH, NEVADA",,,,http://www.fs.usda.gov/htnf
+3,Southwestern,TONTO,TONTO BASIN,TONTO BASIN,ARIZONA,"TONTO BASIN, ARIZONA",Engine,YES,,https://www.fs.usda.gov/tonto/
+1,Northern,HELENA-LEWIS AND CLARK,TOWNSEND,TOWNSEND,MONTANA,"TOWNSEND, MONTANA",Engine,YES,,http://www.fs.usda.gov/helena/
+3,Southwestern,CARSON,TRES PIEDRAS,TRES PIEDRAS,NEW MEXICO,"TRES PIEDRAS, NEW MEXICO",,,,https://www.fs.usda.gov/carson
+5,Pacific Southwest,SIERRA,HIGH SIERRA,TRIMMER,CALIFORNIA,"TRIMMER, CALIFORNIA",,,,http://www.fs.usda.gov/sierra/
+1,Northern,KOOTENAI,CABINET,TROUT CREEK,MONTANA,"TROUT CREEK, MONTANA",Engine,YES,"1 bunkhouse, 6 rooms, 12 beds.  Tends to fill up fast.  Several permanent houses, all occupied most of the time.  ",http://www.fs.usda.gov/kootenai
+6,Pacific Northwest,GIFFORD PINCHOT,MT. ADAMS,TROUTLAKE,WASHINGTON,"TROUTLAKE, WASHINGTON",Engine,YES,,http://www.fs.usda.gov/giffordpinchot
+1,Northern,KOOTENAI,THREE RIVERS,TROY,MONTANA,"TROY, MONTANA",,,,http://www.fs.usda.gov/kootenai
+5,Pacific Southwest,TAHOE,TRUCKEE,TRUCKEE,CALIFORNIA,"TRUCKEE, CALIFORNIA","Hotshot Crew, Engine",NO,,https://www.fs.usda.gov/tahoe/
+3,Southwestern,GILA,BLACK RANGE,TRUTH OR CONSEQUENCE,NEW MEXICO,"TRUTH OR CONSEQUENCE, NEW MEXICO",,,,https://www.fs.usda.gov/gila/
+3,Southwestern,CORONADO,SANTA CATALINA,TUCSON,ARIZONA,"TUCSON, ARIZONA",,,,https://www.fs.usda.gov/coronado
+5,Pacific Southwest,MODOC,DOUBLEHEAD,TULELAKE,CALIFORNIA,"TULELAKE, CALIFORNIA",,,,http://www.fs.usda.gov/modoc
+3,Southwestern,KAIBAB,TUSAYAN,TUSAYAN,ARIZONA,"TUSAYAN, ARIZONA",,,,https://www.fs.usda.gov/kaibab
+6,Pacific Northwest,UMATILLA,NORTH FORK JOHN DAY,UKIAH,OREGON,"UKIAH, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) , IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/umatilla
+6,Pacific Northwest,WALLOWA-WHITMAN,LA GRANDE,UNITY,OREGON,"UNITY, OREGON","Engine, IA Crew/Squad (4-10 person)",YES,"Housing closes in Oct, can relocate to Halfway gov housing if you work into the winter.",http://www.fs.usda.gov/wallowa-whitman
+5,Pacific Southwest,MENDOCINO,UPPER LAKE,UPPER LAKE,CALIFORNIA,"UPPER LAKE, CALIFORNIA","Engine, Hotshot Crew",YES,,http://www.fs.usda.gov/mendocino/
+4,Intermountain,ASHLEY,FLAMING GORGE/VERNAL,VERNAL,UTAH,"VERNAL, UTAH",Prevention,NO,,http://www.fs.usda.gov/ashley
+2,Rocky Mountain,MEDICINE BOW-ROUTT,PARKS,WALDEN,COLORADO,"WALDEN, COLORADO",Engine,YES,"Housing available for one seasonal employee in double occupancy bunkhouse.  No housing for 13/13s (2), 18/8 (1), and 26/0 (1).  Very few local rental properties with average waitlist of 3 months to 9 months to find local accommodations.  Town is approximately 600 people, 55 miles from larger communities of Laramie WY and Steamboat Springs CO where many single occupancy rentals  exist with a range in price from 800/month to in excess of 2000/month but require a 1 to 1.5 hour one way commute.",http://www.fs.usda.gov/mbr
+6,Pacific Northwest,SIUSLAW,CENTRAL COAST-ODNRA,WALDPORT,OREGON,"WALDPORT, OREGON","Engine, Prevention",YES,,http://www.fs.usda.gov/siuslaw
+2,Rocky Mountain,NEBRASKA,WALL,WALL,SOUTH DAKOTA,"WALL, SOUTH DAKOTA",Engine,YES,,http://www.fs.usda.gov/nebraska
+6,Pacific Northwest,UMATILLA,WALLA WALLA,WALLA WALLA,WASHINGTON,"WALLA WALLA, WASHINGTON","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/umatilla
+1,Northern,DAKOTA PRAIRIE GRASSLANDS,MCKENZIE,WATFORD CITY,NORTH DAKOTA,"WATFORD CITY, NORTH DAKOTA",,,,http://www.fs.usda.gov/dpg/
+5,Pacific Southwest,SHASTA-TRINITY,WEAVERVILLE,WEAVERVILLE,CALIFORNIA,"WEAVERVILLE, CALIFORNIA",,,,http://www.fs.usda.gov/stnf/
+4,Intermountain,PAYETTE,WEISER,WEISER,IDAHO,"WEISER, IDAHO",,,,http://www.fs.usda.gov/payette
+1,Northern,CUSTER GALLATIN,HEBGEN LAKE,WEST YELLOWSTONE,MONTANA,"WEST YELLOWSTONE, MONTANA","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/custergallatin
+6,Pacific Northwest,WILLAMETTE,MIDDLE FORK,WESTFIR,OREGON,"WESTFIR, OREGON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person),  Fuels",YES,,http://www.fs.usda.gov/willamette
+1,Northern,NEZ PERCE-CLEARWATER,SALMON RIVER,WHITE BIRD,IDAHO,"WHITE BIRD, IDAHO","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/nezperceclearwater/
+1,Northern,HELENA-LEWIS AND CLARK,WHITE SULPHUR SPRINGS,WHITE SULPHUR SPGS,MONTANA,"WHITE SULPHUR SPGS, MONTANA",Engine,YES,,http://www.fs.usda.gov/helena/
+1,Northern,BEAVERHEAD-DEERLODGE,BUTTE,WHITEHALL,MONTANA,"WHITEHALL, MONTANA","Engine, IA Crew/Squad (4-10 person)",YES,"I have stayed in the housing, one male one female building. I believe they have 2 T6 engines",http://www.fs.usda.gov/bdnf
+3,Southwestern,KAIBAB,WILLIAMS,WILLIAMS,ARIZONA,"WILLIAMS, ARIZONA","Engine, IA Crew/Squad (4-10 person), Helitack, Fuels, Prevention",YES,Geren Base Work Center/Pittman Valley Helibase,https://www.fs.usda.gov/kaibab
+5,Pacific Southwest,SIX RIVERS,LOWER TRINITY,WILLOW CREEK,CALIFORNIA,"WILLOW CREEK, CALIFORNIA",,,,http://www.fs.usda.gov/srnf/
+5,Pacific Southwest,MENDOCINO,GRINDSTONE,WILLOWS,CALIFORNIA,"WILLOWS, CALIFORNIA",,,,http://www.fs.usda.gov/mendocino/
+4,Intermountain,HUMBOLDT-TOIYABE,SANTA ROSA,WINNEMUCCA,NEVADA,"WINNEMUCCA, NEVADA",,,,http://www.fs.usda.gov/htnf
+6,Pacific Northwest,OKANOGAN-WENATCHEE,METHOW VALLEY,WINTHROP,WASHINGTON,"WINTHROP, WASHINGTON","Engine, Type 2/2IA Handcrew  (Dedicated 20+person) ",YES,,http://www.fs.usda.gov/okawen
+1,Northern,BEAVERHEAD-DEERLODGE,WISDOM,WISDOM,MONTANA,"WISDOM, MONTANA","Engine, IA Crew/Squad (4-10 person)",YES,,http://www.fs.usda.gov/bdnf
+1,Northern,BEAVERHEAD-DEERLODGE,WISDOM,WISE RIVER,MONTANA,"WISE RIVER, MONTANA","Engine, IA Crew/Squad (4-10 person), Helitack",YES,"New Helibase construction in Wise River that includes new, additional housing for seasonals (slated to be completed Oct 2022). Will add 8 new seasonal beds",http://www.fs.usda.gov/bdnf
+2,Rocky Mountain,PIKE AND SAN ISABEL,PIKES PEAK,WOODLAND PARK,COLORADO,"WOODLAND PARK, COLORADO",,,,http://www.fs.usda.gov/psicc
+5,Pacific Southwest,ANGELES,LOS ANGELES GATEWAY,WRIGHTWOOD,CALIFORNIA,"WRIGHTWOOD, CALIFORNIA",,,,http://www.fs.usda.gov/angeles
+2,Rocky Mountain,MEDICINE BOW-ROUTT,YAMPA,YAMPA,COLORADO,"YAMPA, COLORADO","Engines, Fuels",Yes,,http://www.fs.usda.gov/mbr
+4,Intermountain,BOISE,,YELLOW PINE,IDAHO,"YELLOW PINE, IDAHO",IA Crew/Squad (4-10 person),YES,,http://www.fs.usda.gov/boise
+5,Pacific Southwest,KLAMATH,HAPPY CAMP,YREKA,CALIFORNIA,"YREKA, CALIFORNIA",,,,http://www.fs.usda.gov/klamath
+6,Pacific Northwest,MT. HOOD,ZIGZAG,ZIGZAG,OREGON,"ZIGZAG, OREGON",Hotshot Crew,Yes,,http://www.fs.usda.gov/mthood
