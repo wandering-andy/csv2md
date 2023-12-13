@@ -1,6 +1,7 @@
 from mdutils.mdutils import MdUtils
 from helpers import replace_spaces
 from string import capwords
+from main import os
 
 
 def markdownify(text: str, output_type: str) -> str:

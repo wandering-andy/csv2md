@@ -1,6 +1,7 @@
 import click
 import directory
 import create
+import logging
 
 
 @click.command()

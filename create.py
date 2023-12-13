@@ -1,17 +1,15 @@
-import os
-from csv import DictReader
-from helpers import replace_spaces
-from markdown import build_markdown, generate_markdown_file, file_path_formatter
+from main import os, csv, click, logging
+from markdown import build_markdown, generate_markdown_page, file_path_formatter
 from directory import file_search
 
 
 def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose):
     """This script converts each row in a CSV file into a Markdown file."""
     # TODO: break this up into smaller functions
-    # if verbose:
-    #     logging.basicConfig(level=logging.INFO)
-    # if very_verbose:
-    #     logging.basicConfig(level=logging.DEBUG)
+    if verbose:
+        logging.basicConfig(level=logging.INFO)
+    if very_verbose:
+        logging.basicConfig(level=logging.DEBUG)
 
     row_count = 0
     try:
@@ -25,7 +23,7 @@ def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very
                 csv_reader = csv.reader(csv_file, delimiter=',')
             else:
                 # If the CSV file has headers, use DictReader
-                csv_reader = DictReader(csv_file, delimiter=',', dialect='excel')
+                csv_reader = csv.DictReader(csv_file, delimiter=',', dialect='excel')
 
             for row in csv_reader:
                 mdFile = build_markdown(row)

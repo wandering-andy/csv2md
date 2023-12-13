@@ -1,4 +1,4 @@
-import os
+from main import os, click, logging
 
 
 def file_search(directory, file_name, sort):
