@@ -1,0 +1,66 @@
+import os
+from csv import DictReader
+from helpers import replace_spaces
+from markdown import build_markdown, generate_markdown_file, file_path_formatter
+from directory import file_search
+
+
+def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose):
+    """This script converts each row in a CSV file into a Markdown file."""
+    # TODO: break this up into smaller functions
+    # if verbose:
+    #     logging.basicConfig(level=logging.INFO)
+    # if very_verbose:
+    #     logging.basicConfig(level=logging.DEBUG)
+
+    row_count = 0
+    try:
+        # Check if the output directory exists, create it if it doesn't
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        with open(csv_file, "r", encoding="utf-8") as csv_file:
+            if not csv_headers:
+                # If the CSV file doesn't have headers, use csv.reader
+                csv_reader = csv.reader(csv_file, delimiter=',')
+            else:
+                # If the CSV file has headers, use DictReader
+                csv_reader = DictReader(csv_file, delimiter=',', dialect='excel')
+
+            for row in csv_reader:
+                mdFile = build_markdown(row)
+
+                # Creates a directory structure based on the headers in the CSV
+                if create_directories:
+                    logging.debug("Building directory structure...")
+                    path = os.path.join(output_dir, file_path_formatter(row))
+                    logging.debug(path)
+                    os.makedirs(path, exist_ok=True)
+                    os.chdir(path)
+
+                mdFile.create_md_file()
+                os.chdir(output_dir)
+                row_count += 1
+
+        print(f"Conversion complete. Processed {row_count} rows.")
+
+    except FileNotFoundError as e:
+        print(f"Error: File '{csv_file}' not found.")
+        logging.debug("Error Args: %s" % e.args)
+        logging.debug("Traceback: %s" % e.with_traceback)
+    except csv.Error as e:
+        print("CSV Error:", e)
+    except Exception as e:
+        print("Error while converting:", e)
+
+
+def generate_stub_file(file_name, title, author, yes):
+    """Generates a stub file with a list of links to all files in the current directory."""
+    if yes or click.confirm('''
+                            Do you want to include a list of links to all files
+                            in the current directory in your stub file?'):
+                            '''):
+        file_list = file_search
+    else:
+        file_list = []
+    generate_markdown_page(file_name, title, author, file_list)

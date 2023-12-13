@@ -1,6 +1,6 @@
 import pytest
 import csv
-from csv2mdpages import convert
+from python.csv2md.main import convert
 
 
 def test_convert(tmp_path):
