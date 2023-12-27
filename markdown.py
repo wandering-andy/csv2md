@@ -1,5 +1,5 @@
 from mdutils.mdutils import MdUtils
-from helpers import replace_spaces
+from python.csv2md.helpers import replace_spaces
 from string import capwords
 from main import os
 

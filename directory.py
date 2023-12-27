@@ -1,6 +1,6 @@
 from main import os, click, logging
 
-
+# TODO: add some logging flags and options
 def file_search(directory, file_name, sort):
     """
     Search for a specific file in a directory.

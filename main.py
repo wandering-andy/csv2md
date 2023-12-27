@@ -51,6 +51,10 @@ def csv2md(csv_file, csv_headers, output_dir, create_directories, verbose, very_
     """
     Convert CSV to Markdown.
     """
+    if verbose:
+        logging.basicConfig(level=logging.INFO)
+    if very_verbose:
+        logging.basicConfig(level=logging.DEBUG)
     create.convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose)
 
 

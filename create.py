@@ -5,11 +5,6 @@ from directory import file_search
 
 def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose):
     """This script converts each row in a CSV file into a Markdown file."""
-    # TODO: break this up into smaller functions
-    if verbose:
-        logging.basicConfig(level=logging.INFO)
-    if very_verbose:
-        logging.basicConfig(level=logging.DEBUG)
 
     row_count = 0
     try:
