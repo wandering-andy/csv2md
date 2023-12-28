@@ -5,6 +5,7 @@ description = "Command-line tool for wiki engine."
 authors = ["Andy Jones <3579815+wandering-andy@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/wandering-andy/csv2md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
