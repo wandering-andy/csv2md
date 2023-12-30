@@ -21,7 +21,7 @@ def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very
                 csv_reader = csv.DictReader(csv_file, delimiter=',', dialect='excel')
 
             for row in csv_reader:
-                mdFile = build_markdown(row)
+                md_file = build_markdown(row)
 
                 # Creates a directory structure based on the headers in the CSV
                 if create_directories:
@@ -31,7 +31,7 @@ def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very
                     os.makedirs(path, exist_ok=True)
                     os.chdir(path)
 
-                mdFile.create_md_file()
+                md_file.create_md_file()
                 os.chdir(output_dir)
                 row_count += 1
 
