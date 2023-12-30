@@ -1,4 +1,6 @@
-from main import os, click, logging
+# -*- coding: utf-8 -*-
+from main import click, os
+
 
 # TODO: add some logging flags and options
 def file_search(directory, file_name, sort):
@@ -36,11 +38,11 @@ def view_files(directory, sort):
         list: The list of file names in the directory, sorted according to the specified sorting method.
     """
     files = os.listdir(directory)
-    if sort == 'name':
+    if sort == "name":
         files.sort()
-    elif sort == 'size':
+    elif sort == "size":
         files.sort(key=lambda f: os.path.getsize(os.path.join(directory, f)))
-    elif sort == 'date':
+    elif sort == "date":
         files.sort(key=lambda f: os.path.getmtime(os.path.join(directory, f)))
     return files
 

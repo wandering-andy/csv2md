@@ -1,12 +1,7 @@
-import os
-import csv
-import click
-import logging
-from markdown import build_markdown, generate_markdown_page, file_path_formatter
-from directory import file_search
-
-
-def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose):
+# -*- coding: utf-8 -*-
+def convert(
+    csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose
+):
     """This script converts each row in a CSV file into a Markdown file."""
     # Implementation of the function...
 

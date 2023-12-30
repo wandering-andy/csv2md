@@ -1,5 +1,6 @@
-import pytest
+# -*- coding: utf-8 -*-
 import csv
+
 from python.csv2md.main import convert
 
 
@@ -15,7 +16,7 @@ def test_convert(tmp_path):
         "MODULES": "Super Saiyan Smokey",
         "HOUSING": "No",
         "NOTES": "All the notes",
-        "FOREST_URL": "www.google.com"
+        "FOREST_URL": "www.google.com",
     }
 
     expected_output = [
@@ -38,7 +39,7 @@ def test_convert(tmp_path):
     ]
     temp_csv_file = tmp_path / "data.csv"
 
-    with open(temp_csv_file, mode='w', newline='') as file:
+    with open(temp_csv_file, mode="w", newline="") as file:
         fieldnames = input_data.keys()
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()

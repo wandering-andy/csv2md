@@ -1,11 +1,14 @@
+# -*- coding: utf-8 -*-
 import os
+
 import pytest
 from mdutils.mdutils import MdUtils
+
 from csv2md.markdown import (
-    generate_markdown_page,
     generate_markdown_file,
     generate_markdown_header,
     generate_markdown_list_linked,
+    generate_markdown_page,
 )
 
 

@@ -1,9 +1,12 @@
-from main import os, csv, click, logging
-from markdown import build_markdown, generate_markdown_page, file_path_formatter
+# -*- coding: utf-8 -*-
 from directory import file_search
+from main import click, csv, logging, os
+from markdown import build_markdown, file_path_formatter, generate_markdown_page
 
 
-def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose):
+def convert(
+    csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose
+):
     """This script converts each row in a CSV file into a Markdown file."""
 
     row_count = 0
@@ -15,10 +18,10 @@ def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very
         with open(csv_file, "r", encoding="utf-8") as csv_file:
             if not csv_headers:
                 # If the CSV file doesn't have headers, use csv.reader
-                csv_reader = csv.reader(csv_file, delimiter=',')
+                csv_reader = csv.reader(csv_file, delimiter=",")
             else:
                 # If the CSV file has headers, use DictReader
-                csv_reader = csv.DictReader(csv_file, delimiter=',', dialect='excel')
+                csv_reader = csv.DictReader(csv_file, delimiter=",", dialect="excel")
 
             for row in csv_reader:
                 md_file = build_markdown(row)
@@ -49,10 +52,12 @@ def convert(csv_file, csv_headers, output_dir, create_directories, verbose, very
 
 def generate_stub_file(file_name, title, author, yes):
     """Generates a stub file with a list of links to all files in the current directory."""
-    if yes or click.confirm('''
+    if yes or click.confirm(
+        """
                             Do you want to include a list of links to all files
                             in the current directory in your stub file?'):
-                            '''):
+                            """
+    ):
         file_list = file_search
     else:
         file_list = []

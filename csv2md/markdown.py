@@ -1,8 +1,11 @@
-from mdutils.mdutils import MdUtils
-from csv2md.helpers import replace_spaces
-from string import capwords
+# -*- coding: utf-8 -*-
 import os
+from string import capwords
 from typing import List
+
+from mdutils.mdutils import MdUtils
+
+from csv2md.helpers import replace_spaces
 
 
 # TODO: These functions need to be rewritten to be more general. Some of them might be redundant but I think I'll need some of them to keep building out the generate_* functions.
@@ -19,7 +22,10 @@ def file_name_formatter(row):
         str: The formatted file name.
 
     Example:
-        >>> row = {'CITY': 'San Francisco', 'STATE': 'California'}
+        >>> row = {
+        ...     "CITY": "San Francisco",
+        ...     "STATE": "California",
+        ... }
         >>> file_name_formatter(row)
         'San_Francisco_California.md'
     """
