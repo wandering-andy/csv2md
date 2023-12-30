@@ -1,7 +1,7 @@
 from mdutils.mdutils import MdUtils
 from csv2md.helpers import replace_spaces
 from string import capwords
-from main import os
+import os
 from typing import List
 
 
@@ -121,10 +121,13 @@ def generate_markdown_page() -> str:
         str: The file path of the generated markdown file.
     """
     md_file = generate_markdown_file("README.md", "title", "author")
+    # FIXME: Don't I need to be passing more than one parameter?
     generate_markdown_header(md_file)
+    # FIXME: Don't I need to be passing more than one parameter?
     generate_markdown_list_linked(md_file)
+    # FIXME: Does .create_md_file() actually exist?
     md_file.create_md_file()
-    return md_file.file_path
+    return md_file  # .file_path Goal was probably to return the full path name
 
 
 def generate_markdown_file(file_name: str, title: str, author: str) -> MdUtils:
