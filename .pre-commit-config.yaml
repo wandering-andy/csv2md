@@ -1,0 +1,37 @@
+default_language_version:
+  python: python3.11
+fail_fast: true
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        name: Trailing Whitespace Fixer
+        entry: trailing-whitespace-fixer
+      - id: end-of-file-fixer
+        name: End of File Fixer
+        entry: end-of-file-fixer
+        language: python
+      - id: check-toml
+        name: TOML Checker
+        entry: check-toml
+      - id: check-yaml
+        name: YAML Checker
+        entry: check-yaml
+      - id: detect-private-key
+        name: Private Key Detector
+        entry: detect-private-key
+      - id: fix-byte-order-marker
+        name: Byte Order Marker Fixer
+        entry: fix-byte-order-marker
+      - id: fix-encoding-pragma
+        name: Encoding Pragma Fixer
+        entry: fix-encoding-pragma
+        language: python
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.9
+    hooks:
+      - id: ruff
+        args: [ --fix ]
+      - id: ruff-format
