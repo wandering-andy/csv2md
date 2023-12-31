@@ -4,6 +4,7 @@ def convert(
 ):
     """This script converts each row in a CSV file into a Markdown file."""
     # Implementation of the function...
+    pass
 
 
 def generate_stub_file(file_name, title, author, yes):

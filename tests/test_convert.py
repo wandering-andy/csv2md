@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import csv
 
-from python.csv2md.main import convert
+from csv2md.create import convert
 
 
 def test_convert(tmp_path):

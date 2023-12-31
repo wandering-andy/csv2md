@@ -2,9 +2,7 @@
 import logging
 
 import click
-import create
-import directory
-import pytest
+from csv2md import directory, create
 
 
 @click.command()
@@ -88,37 +86,3 @@ def csv2md(
     create.convert(
         csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose
     )
-
-
-# Refactored to add unit tests using pytest
-class TestCSV2MD:
-    @pytest.mark.parametrize(
-        "dir_path, filename, sort",
-        [
-            ("/path/to/directory", "filename.txt", "name"),
-            ("/path/to/directory", None, "size"),
-            ("/path/to/directory", "filename.txt", "date"),
-        ],
-    )
-    def test_search_files(self, dir_path, filename, sort):
-        # Add your unit test for the search_files function here
-        pass
-
-    @pytest.mark.parametrize(
-        "file_name, title, author, yes",
-        [
-            ("example.md", "Example", "John Doe", False),
-            ("stub.md", "Stub", "Jane Smith", True),
-        ],
-    )
-    def test_create_stub_file(self, file_name, title, author, yes):
-        # Add your unit test for the create_stub_file function here
-        pass
-
-    @pytest.mark.parametrize(
-        "csv_file, csv_headers, output_dir",
-        [("data.csv", True, "."), ("data.csv", False, "output")],
-    )
-    def test_csv_processing(csv_file, csv_headers, output_dir):
-        # Add test logic here
-        pass

@@ -116,7 +116,7 @@ def build_markdown(row):
     return md_file
 
 
-# TODO : the generate_* functions seem to be in a good place. Now I need to start USING them to generate some pages.
+# HACK: the generate_* functions seem to be in a good place. Now I need to start USING them to generate some pages.
 
 
 def generate_markdown_page() -> str:

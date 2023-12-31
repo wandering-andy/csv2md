@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
-from directory import file_search
-from main import click, csv, logging, os
-from markdown import build_markdown, file_path_formatter, generate_markdown_page
+from csv2md.directory import file_search
+import click
+import csv
+import logging
+import os
+from csv2md.markdown import build_markdown, file_path_formatter, generate_markdown_page
 
 
 def convert(

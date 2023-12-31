@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from main import click, os
+import click
+import os
 
 
 # TODO: add some logging flags and options
@@ -18,7 +19,6 @@ def file_search(directory, file_name, sort):
         for file in files:
             click.echo(file)
     else:
-        # TODO: create helper function for this
         file_path = os.path.join(directory, file_name)
         if os.path.exists(file_path):
             click.echo(f"File '{file_name}' found at: {file_path}")
@@ -54,6 +54,6 @@ def walkthrough_structure(directory):
     Args:
         directory (str): The root directory to start the walkthrough from.
     """
-    for root, dirs, files in os.walk(directory):
+    for root, files in os.walk(directory):
         for file in files:
             file_search(root, file)

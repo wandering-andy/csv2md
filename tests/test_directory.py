@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 
-from main import file_search, view_files
+from csv2md.directory import file_search, view_files
 
 
 def test_file_search_with_existing_file(capsys):
