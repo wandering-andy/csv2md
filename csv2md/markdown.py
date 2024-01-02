@@ -1,210 +1,169 @@
 # -*- coding: utf-8 -*-
 import os
 from string import capwords
-from typing import List
 
 from mdutils.mdutils import MdUtils
 
 from csv2md.helpers import replace_spaces
 
 
-# TODO: These functions need to be rewritten to be more general. Some of them might be redundant but I think I'll need some of them to keep building out the generate_* functions.
-def file_name_formatter(row):
-    # TODO: This is going to need to be expanded so that it
-    # returns a markdown file name based whatever strings are passed to it
-    """
-    [CONVERT] Formats a file name based on the given row data.
+class MarkdownGenerator:
+    def __init__(self):
+        pass
 
-    Parameters:
-        row (dict): A dictionary containing the row data.
+    # TODO: These functions need to be rewritten to be more general. Some of them might be redundant but I think I'll need some of them to keep building out the generate_* functions.
+    class v1:
+        def file_name_formatter(row):
+            # TODO: This is going to need to be expanded so that it
+            # returns a markdown file name based whatever strings are passed to it
+            """
+            [CONVERT] Formats a file name based on the given row data.
 
-    Returns:
-        str: The formatted file name.
+            Parameters:
+                row (dict): A dictionary containing the row data.
 
-    Example:
-        >>> row = {
-        ...     "CITY": "San Francisco",
-        ...     "STATE": "California",
-        ... }
-        >>> file_name_formatter(row)
-        'San_Francisco_California.md'
-    """
-    ext = ".md"
-    city_name = replace_spaces(row["CITY"])
-    state_name = replace_spaces(row["STATE"])
-    return f"{city_name}_{state_name}{ext}"
+            Returns:
+                str: The formatted file name.
 
+            Example:
+                >>> row = {
+                ...     "CITY": "San Francisco",
+                ...     "STATE": "California",
+                ... }
+                >>> file_name_formatter(row)
+                'San_Francisco_California.md'
+            """
+            ext = ".md"
+            city_name = replace_spaces(row["CITY"])
+            state_name = replace_spaces(row["STATE"])
+            return f"{city_name}_{state_name}{ext}"
 
-def file_path_formatter(row):
-    """
-    [CONVERT] Generates a file path by formatting the given row.
+        def file_path_formatter(row):
+            """
+            [CONVERT] Generates a file path by formatting the given row.
 
-    Args:
-        row (dict): A dictionary representing a row of data containing the following keys:
-            - 'REGION_NUM': An integer representing the region number.
-            - 'FOREST_NAME': A string representing the name of the forest.
-            - 'DISTRICT_NAME': A string representing the name of the district.
+            Args:
+                row (dict): A dictionary representing a row of data containing the following keys:
+                    - 'REGION_NUM': An integer representing the region number.
+                    - 'FOREST_NAME': A string representing the name of the forest.
+                    - 'DISTRICT_NAME': A string representing the name of the district.
 
-    Returns:
-        str: The formatted file path generated using the region, forest, and district names.
-    """
-    region = f"region-{row['REGION_NUM']}"
-    forest = replace_spaces(row["FOREST_NAME"])
-    district = replace_spaces(row["DISTRICT_NAME"])
-    return os.path.join(region, forest, district)
+            Returns:
+                str: The formatted file path generated using the region, forest, and district names.
+            """
+            region = f"region-{row['REGION_NUM']}"
+            forest = replace_spaces(row["FOREST_NAME"])
+            district = replace_spaces(row["DISTRICT_NAME"])
+            return os.path.join(region, forest, district)
 
+        def add_information_section(md_file, row):
+            """
+            [CONVERT] Adds an information section to the markdown file.
 
-def add_information_section(md_file, row):
-    """
-    [CONVERT] Adds an information section to the markdown file.
+            Parameters:
+                md_file (MarkdownFile): The markdown file object to add the information section to.
+                row (dict): The row containing the information to be added.
 
-    Parameters:
-        md_file (MarkdownFile): The markdown file object to add the information section to.
-        row (dict): The row containing the information to be added.
+            Returns:
+                None
+            """
+            # TODO: Rewrite this so that when a key:value pair is passed in it creates a new line with the key and value
+            # example: md_file.new_line(f"* key: value")
+            md_file.new_line("# Information")
+            md_file.new_line(f"* Region Name: [{row['REGION_NAME']}]()")
+            md_file.new_line(f"* Region Number: {row['REGION_NUM']}")
+            md_file.new_line(
+                f"* Forest: [{capwords(row['FOREST_NAME'])}]({row['FOREST_URL']})"
+            )
+            md_file.new_line(f"* Ranger District: [{capwords(row['DISTRICT_NAME'])}]()")
+            md_file.new_line("* Modules:")
+            for module in sorted(row["MODULES"].split(",")):
+                if module.strip() == "":
+                    md_file.new_line("  - Unknown")
+                else:
+                    md_file.new_line(f"  - {module.strip()}")
+            housing = (
+                "Unknown" if len(row["HOUSING"]) == 0 else row["HOUSING"].capitalize()
+            )
+            md_file.new_line(f"* Housing: {housing}")
+            md_file.new_line()
 
-    Returns:
-        None
-    """
-    md_file.new_line("# Information")
-    md_file.new_line(f"* Region Name: [{row['REGION_NAME']}]()")
-    md_file.new_line(f"* Region Number: {row['REGION_NUM']}")
-    md_file.new_line(f"* Forest: [{capwords(row['FOREST_NAME'])}]({row['FOREST_URL']})")
-    md_file.new_line(f"* Ranger District: [{capwords(row['DISTRICT_NAME'])}]()")
-    md_file.new_line("* Modules:")
-    for module in sorted(row["MODULES"].split(",")):
-        if module.strip() == "":
-            md_file.new_line("  - Unknown")
-        else:
-            md_file.new_line(f"  - {module.strip()}")
-    housing = "Unknown" if len(row["HOUSING"]) == 0 else row["HOUSING"].capitalize()
-    md_file.new_line(f"* Housing: {housing}")
-    md_file.new_line()
+        def add_notes_section(md_file, row):
+            """
+            [CONVERT] Adds a new notes section to the given Markdown file.
 
+            Parameters:
+                md_file (MarkdownFile): The Markdown file to add the notes section to.
+                row (dict): A dictionary representing a row of data containing the notes.
 
-def add_notes_section(md_file, row):
-    """
-    [CONVERT] Adds a new notes section to the given Markdown file.
+            Returns:
+                None
+            """
+            md_file.new_line("## Notes")
+            md_file.new_paragraph(row["NOTES"])
 
-    Parameters:
-        md_file (MarkdownFile): The Markdown file to add the notes section to.
-        row (dict): A dictionary representing a row of data containing the notes.
+        def build_markdown(self, row):
+            """
+            [CONVERT] Generate a markdown file based on the given row data.
 
-    Returns:
-        None
-    """
-    md_file.new_line("## Notes")
-    md_file.new_paragraph(row["NOTES"])
+            Args:
+                row (dict): A dictionary containing information for generating the markdown file.
 
+            Returns:
+                str: The generated markdown file.
+            """
+            md_file = self.v2.generate_markdown_page(
+                file_name=self.v1.file_path_formatter(row),
+                title=capwords(row["LOCATION"]),
+                author="Big Ernie",
+            )
+            self.v1.add_information_section(md_file, row)
+            self.v1.add_notes_section(md_file, row)
+            return md_file
 
-def build_markdown(row):
-    """
-    [CONVERT] Generate a markdown file based on the given row data.
+    class v2:
+        def generate_md_page(file_name, title, author) -> str:
+            """
+            Generates a markdown page with the given file name, title, and author.
 
-    Args:
-        row (dict): A dictionary containing information for generating the markdown file.
+            Args:
+                file_name (str): The file name for the generated markdown file.
+                title (str): The title for the markdown page.
+                author (str): The author of the markdown page.
 
-    Returns:
-        str: The generated markdown file.
-    """
-    md_file = generate_markdown_file(
-        file_name=file_path_formatter(row),
-        title=capwords(row["LOCATION"]),
-        author="Big Ernie",
-    )
-    add_information_section(md_file, row)
-    add_notes_section(md_file, row)
-    return md_file
+            Returns:
+                str: The path of the generated markdown file.
+            """
+            md_file = MdUtils(file_name=file_name, title=title, author=author)
+            md_file.create_md_file()
+            return md_file.file_name
 
+        def generate_md_link(md_file: MdUtils, link: str, text: str) -> MdUtils:
+            """
+            Generates a markdown-formatted link and adds it to the given Markdown file.
 
-# HACK: the generate_* functions seem to be in a good place. Now I need to start USING them to generate some pages.
+            Args:
+                md_file (MdUtils): The `MdUtils` object to which the link will be added.
+                link (str): The URL for the link.
+                text (str): The text to display for the link.
 
+            Returns:
+                MdUtils: The `MdUtils` object with the link added.
+            """
+            md_file.new_inline_link(text, link)
+            return md_file
 
-def generate_markdown_page() -> str:
-    """
-    Generates a markdown page with a header and a list of files.
+        def generate_md_list(md_file: MdUtils, item_list) -> MdUtils:
+            """
+            Generates a markdown-formatted list and adds it to the given Markdown file.
 
-    Returns:
-        str: The file path of the generated markdown file.
-    """
-    md_file = generate_markdown_file("README.md", "title", "author")
-    # FIXME: Don't I need to be passing more than one parameter?
-    generate_markdown_header(md_file)
-    # FIXME: Don't I need to be passing more than one parameter?
-    generate_markdown_list_linked(md_file)
-    # FIXME: Does .create_md_file() actually exist?
-    md_file.create_md_file()
-    return md_file  # .file_path Goal was probably to return the full path name
+            Args:
+                md_file (MdUtils): The `MdUtils` object to which the list will be added.
+                item_list: A nested list representing the items of the markdown list.
 
+            Returns:
+                MdUtils: The `MdUtils` object with the list added.
+            """
+            md_file.new_list(item_list)
 
-def generate_markdown_file(file_name: str, title: str, author: str) -> MdUtils:
-    """
-    Creates a `MdUtils` object for generating a markdown file.
-
-    Args:
-        file_name (str): The name of the markdown file.
-        title (str): The title of the markdown file.
-        author (str): The author of the markdown file.
-
-    Returns:
-        MdUtils: The `MdUtils` object.
-    """
-    return MdUtils(file_name=file_name, title=title, author=author)
-
-
-def generate_markdown_header(md_file: MdUtils) -> None:
-    """
-    Adds a markdown header to the given Markdown file.
-
-    Args:
-        md_file (MdUtils): The `MdUtils` object to which the markdown header will be added.
-
-    Returns:
-        None
-    """
-    md_file.write("# This is the Header\n\n")
-
-
-def generate_markdown_list_linked(
-    md_file: MdUtils, file_list: List[str] = None
-) -> MdUtils:
-    """
-    Generates a markdown-formatted list of file names and their paths.
-
-    Args:
-        md_file (MdUtils): The `MdUtils` object to which the markdown list will be added.
-        file_list (Optional[List[str]]): A list of file paths. Defaults to the current working directory if not provided.
-
-    Returns:
-        MdUtils: The `MdUtils` object with the markdown list added.
-    """
-    if file_list is None:
-        file_list = [os.getcwd()]
-
-    for file_path in file_list:
-        if os.path.isdir(file_path):
-            file_names = [f"- {f}" for f in os.listdir(file_path)]
-            md_file.new_inline_link("\n".join(file_names), file_path)
-        else:
-            md_file.new_inline_link(f"- {os.path.basename(file_path)}", file_path)
-
-    return md_file
-
-
-def generate_markdown_list(md_file, list):
-    """
-    Adds a markdown formatted list to the given Markdown file.
-
-    Args:
-        md_file (MdUtils): The `MdUtils` object to which the markdown list will be added.
-        list (List[str]): A list of strings representing the list items.
-
-    Returns:
-        MdUtils: The `MdUtils` object with the markdown list added.
-
-    Raises:
-        None
-    """
-
-    md_file.new_line("\n".join(f"- {item}" for item in list))
-
-    return md_file
+            return md_file
