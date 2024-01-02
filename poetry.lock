@@ -84,6 +84,21 @@ files = [
 license = ["ukkonen"]
 
 [[package]]
+name = "incase"
+version = "0.0.8"
+description = "A word case management library with too many features (just in case)."
+category = "main"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "incase-0.0.8-py3-none-any.whl", hash = "sha256:2d95966d2ec0f3a9709977af734e1a3ed99bff78d633eda5bea205d05a009da7"},
+    {file = "incase-0.0.8.tar.gz", hash = "sha256:c7f5edcf91994d5f5557ce7ca0f3500605d7ccd0373035d8817f4eacf51816c4"},
+]
+
+[package.extras]
+middleware = ["starlette"]
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -388,4 +403,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "85bdd3dea6aae41e6d404452e851a3e7c945e80990d742ab5d080c8cb9473f7c"
+content-hash = "4e681e01711b240d35851a5122d9503ee7d8e116642c56e92c4d3289930261ce"

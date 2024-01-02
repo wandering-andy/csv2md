@@ -11,6 +11,7 @@ repository = "https://github.com/wandering-andy/csv2md"
 python = "^3.11"
 click = "^8.1.7"
 mdutils = "^1.6.0"
+incase = "^0.0.8"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
