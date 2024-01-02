@@ -1,16 +1,29 @@
 # -*- coding: utf-8 -*-
-from csv2md.directory import file_search
-import click
 import csv
 import logging
 import os
-from csv2md.markdown import build_markdown, file_path_formatter, generate_markdown_page
+
+from csv2md.directory import files
+from csv2md.markdown import markdown
 
 
 def convert(
     csv_file, csv_headers, output_dir, create_directories, verbose, very_verbose
 ):
-    """This script converts each row in a CSV file into a Markdown file."""
+    """
+    Convert a CSV file to Markdown files.
+
+    Args:
+        csv_file (str): The path to the CSV file to be converted.
+        csv_headers (bool): Flag indicating whether the CSV file contains headers.
+        output_dir (str): The directory where the Markdown files will be saved.
+        create_directories (bool): Flag indicating whether to create directories based on CSV data.
+        verbose (bool): Flag indicating whether to display verbose output.
+        very_verbose (bool): Flag indicating whether to display very verbose output.
+
+    Returns:
+        None
+    """
 
     row_count = 0
     try:
@@ -27,12 +40,14 @@ def convert(
                 csv_reader = csv.DictReader(csv_file, delimiter=",", dialect="excel")
 
             for row in csv_reader:
-                md_file = build_markdown(row)
+                md_file = markdown.v1.build_markdown(row)
 
                 # Creates a directory structure based on the headers in the CSV
                 if create_directories:
                     logging.debug("Building directory structure...")
-                    path = os.path.join(output_dir, file_path_formatter(row))
+                    path = os.path.join(
+                        output_dir, markdown.v1.file_path_formatter(row)
+                    )
                     logging.debug(path)
                     os.makedirs(path, exist_ok=True)
                     os.chdir(path)
@@ -53,15 +68,36 @@ def convert(
         print("Error while converting:", e)
 
 
-def generate_stub_file(file_name, title, author, yes):
-    """Generates a stub file with a list of links to all files in the current directory."""
-    if yes or click.confirm(
+class MDLinkGenerator:
+    def __init__(self, file_name="about.md", title="About", author=None):
         """
-                            Do you want to include a list of links to all files
-                            in the current directory in your stub file?'):
-                            """
-    ):
-        file_list = file_search
-    else:
-        file_list = []
-    generate_markdown_page(file_name, title, author, file_list)
+        Initialize an instance of the MDLinkGenerator class.
+
+        Args:
+            file_name (str, optional): The name of the Markdown file to be generated. Defaults to "about.md".
+            title (str, optional): The title of the Markdown page. Defaults to "About".
+            author (str, optional): The author of the Markdown page. Defaults to None.
+        """
+        self.file_name = file_name
+        self.title = title
+        self.author = author
+
+    def generate_md_link_file(self, directory="."):
+        """
+        Generate a Markdown file with links to other files in the specified directory.
+
+        Args:
+            directory (str, optional): The directory to search for files. Defaults to ".".
+
+        Returns:
+            None
+        """
+        md_file = markdown.v2.generate_md_page(self.file_name, self.title, self.author)
+        file_list = files.view_files(directory)
+
+        for file in file_list:
+            file_path = os.path.join(directory, file)
+            file_link = f"[{file}]({file_path})"
+            md_file.new_line(file_link)
+
+        md_file.create_md_file()
