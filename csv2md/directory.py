@@ -1,59 +1,109 @@
 # -*- coding: utf-8 -*-
-import click
+import logging
 import os
 
+import click
 
-# TODO: add some logging flags and options
-def file_search(directory, file_name, sort):
-    """
-    Search for a specific file in a directory.
-    If no arguments are provided, show all files in the current directory.
+from csv2md.create import MDLinkGenerator
 
-    Args:
-        directory (str): The directory to search in.
-        file_name (str): The name of the file to search for.
-        sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
-    """
-    if file_name is None:
-        files = view_files(directory, sort)
+logging.basicConfig(level=logging.INFO)
+# TODO: add level=logging.DEBUG
+# TODO: add level=logging.ERROR
+# TODO: add logging points for verbose and very-verbose
+# TODO: add logging points for view-files and search-files
+
+
+# TODO: all of the Click stuff needs to be moved to main.py.
+# I want the submodules to mostly be functions and I want main.py to mostly be a
+# Click flavored wrapper. That means all the staticmethod stuff can be deleted.
+class Files:
+    def view_files(directory, sort):
+        """
+        Get a list of files in a directory.
+
+        Args:
+            directory (str): The directory to get files from.
+            sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
+        """
+        logging.info(f"Getting list of files in directory '{directory}'")
+
+        files = os.listdir(directory)
+        if sort == "name":
+            files.sort()
+        elif sort == "size":
+            files.sort(key=lambda f: os.path.getsize(os.path.join(directory, f)))
+        elif sort == "date":
+            files.sort(key=lambda f: os.path.getmtime(os.path.join(directory, f)))
+
         for file in files:
             click.echo(file)
-    else:
-        file_path = os.path.join(directory, file_name)
-        if os.path.exists(file_path):
-            click.echo(f"File '{file_name}' found at: {file_path}")
+
+    def search_files(directory, file_name, sort):
+        """
+        Search for a specific file in a directory.
+        If no arguments are provided, show all files in the current directory.
+
+        Args:
+            directory (str): The directory to search in.
+            file_name (str): The name of the file to search for.
+            sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
+        """
+        logging.info(f"Searching for file '{file_name}' in directory '{directory}'")
+
+        if file_name is None:
+            files = Files.view_files(directory, sort)
+            for file in files:
+                click.echo(file)
         else:
-            click.echo(f"File '{file_name}' not found in directory: {directory}")
+            file_path = os.path.join(directory, file_name)
+            if os.path.exists(file_path):
+                click.echo(f"File '{file_name}' found at: {file_path}")
+            else:
+                click.echo(f"File '{file_name}' not found in directory '{directory}'")
 
 
-def view_files(directory, sort):
+def generate_dir_structure(root_directory=None, nested_list=None, create_links=False):
     """
-    Get a list of files in a directory.
+    Generate a directory structure from a nested list.
 
     Args:
-        directory (str): The directory to get files from.
-        sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
+        root_directory (str): The root directory to start generating the structure from. Defaults to the current working directory if not provided.
+        nested_list (list): A nested list representing the directory structure. Defaults to an empty list if not provided.
+        create_links (bool): Whether to generate links to files or not. Defaults to False.
+
+    Raises:
+        ValueError: If the nested_list is empty.
 
     Returns:
-        list: The list of file names in the directory, sorted according to the specified sorting method.
+        str: The path of the root directory and the total number of directories created.
     """
-    files = os.listdir(directory)
-    if sort == "name":
-        files.sort()
-    elif sort == "size":
-        files.sort(key=lambda f: os.path.getsize(os.path.join(directory, f)))
-    elif sort == "date":
-        files.sort(key=lambda f: os.path.getmtime(os.path.join(directory, f)))
-    return files
+    if nested_list is None:
+        nested_list = []
 
+    if not nested_list:
+        raise ValueError("Nested list cannot be empty.")
 
-def walkthrough_structure(directory):
-    """
-    Walk through the directory structure and call file_search() in each directory.
+    if root_directory is None:
+        root_directory = os.getcwd()
 
-    Args:
-        directory (str): The root directory to start the walkthrough from.
-    """
-    for root, files in os.walk(directory):
-        for file in files:
-            file_search(root, file)
+    directory_counter = 0
+
+    md_link_generator = MDLinkGenerator()  # Instantiate the MDLinkGenerator class
+
+    for item in nested_list:
+        directory_path = os.path.join(root_directory, item[0])
+        os.makedirs(directory_path, exist_ok=True)
+        directory_counter += 1
+
+        if len(item) > 1:
+            subdirectory_counter = generate_dir_structure(
+                directory_path, item[1:], create_links
+            )
+            directory_counter += subdirectory_counter
+
+        if create_links:
+            md_link_generator.generate_md_link_file(
+                directory_path
+            )  # Call the generate_md_link_file method
+
+    return f"Directory structure created in {root_directory}. Total directories created: {directory_counter}"
