@@ -4,7 +4,7 @@ import os
 
 import click
 
-from csv2md.create import MDLinkGenerator
+from csv2md.generator_link import MDLinkGenerator
 
 logging.basicConfig(level=logging.INFO)
 # TODO: add level=logging.DEBUG
@@ -17,28 +17,31 @@ logging.basicConfig(level=logging.INFO)
 # I want the submodules to mostly be functions and I want main.py to mostly be a
 # Click flavored wrapper. That means all the staticmethod stuff can be deleted.
 class Files:
-    def view_files(directory, sort):
+    import os
+
+    def view_files(directory, sort="name"):
         """
-        Get a list of files in a directory.
+        View the files in a directory.
 
         Args:
-            directory (str): The directory to get files from.
-            sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
-        """
-        logging.info(f"Getting list of files in directory '{directory}'")
+            directory (str): The directory path.
+            sort (str, optional): The sort option. Defaults to "name".
 
+        Returns:
+            list: A sorted list of file names.
+        """
         files = os.listdir(directory)
+
         if sort == "name":
             files.sort()
         elif sort == "size":
-            files.sort(key=lambda f: os.path.getsize(os.path.join(directory, f)))
-        elif sort == "date":
-            files.sort(key=lambda f: os.path.getmtime(os.path.join(directory, f)))
+            files.sort(key=lambda file: os.path.getsize(os.path.join(directory, file)))
 
-        for file in files:
-            click.echo(file)
+        return files
 
-    def search_files(directory, file_name, sort):
+    # Note: in an older version of the code, search_files() was meant to search for the default file
+    # we were creating, before creating the default file.
+    def search_files(directory, file_name, sort="name"):
         """
         Search for a specific file in a directory.
         If no arguments are provided, show all files in the current directory.
@@ -46,7 +49,7 @@ class Files:
         Args:
             directory (str): The directory to search in.
             file_name (str): The name of the file to search for.
-            sort (str): The sorting method to use. Can be 'name', 'size', or 'date'.
+            sort (str, optional): Defaults to "name". Can be 'name', 'size', or 'date'.
         """
         logging.info(f"Searching for file '{file_name}' in directory '{directory}'")
 

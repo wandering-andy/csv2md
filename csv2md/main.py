@@ -94,12 +94,12 @@ def csv2md(
     )
 
 
-# FIXME: Needs to have help options here
+# FIXME: [PL1] Needs to have help options here
 @click.command(name="bootstrap")
 @click.argument("csv_file", type=click.Path(exists=True))
 @click.option(
     "--root",
-    type=click.Path(),
+    type=click.Path(exists=True, readable=True, resolve_path=True, file_okay=False),
     help="Root directory to start generating the structure from",
 )
 @click.option(
