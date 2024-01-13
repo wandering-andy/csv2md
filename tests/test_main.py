@@ -2,7 +2,8 @@
 import logging
 
 import click
-from csv2md import directory, create
+
+from csv2md import create, directory
 
 
 @click.command()

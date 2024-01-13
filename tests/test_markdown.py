@@ -7,16 +7,10 @@ from mdutils.mdutils import MdUtils
 from csv2md.markdown import (
     generate_markdown_file,
     generate_markdown_header,
+    generate_markdown_list,
     generate_markdown_list_linked,
     generate_markdown_page,
-    generate_markdown_list,
 )
-
-
-def test_generate_markdown_page(tmp_path):
-    markdown_file_path = generate_markdown_page()
-    assert os.path.exists(markdown_file_path)
-    assert os.path.basename(markdown_file_path) == "README.md"
 
 
 @pytest.fixture
@@ -27,6 +21,12 @@ def markdown_file(tmp_path):
 
     markdown_file = generate_markdown_file(file_path, title, author)
     return markdown_file
+
+
+def test_generate_markdown_page(tmp_path):
+    markdown_file_path = generate_markdown_page()
+    assert os.path.exists(markdown_file_path)
+    assert os.path.basename(markdown_file_path) == "README.md"
 
 
 def test_generate_markdown_file(markdown_file):

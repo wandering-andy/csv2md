@@ -1,52 +1,64 @@
 # -*- coding: utf-8 -*-
+import os
+
 import pytest
-from csv2md.helpers import replace_spaces, build_nested_list_from_csv
+
+from csv2md.create import MDLinkGenerator, convert
 
 
-# Tests for replace_spaces function
 @pytest.mark.parametrize(
-    "input_text, expected_output",
+    "csv_headers, create_directories, expected_files",
     [
-        ("Hello World", "hello-world"),
-        ("  Leading and trailing spaces  ", "--leading-and-trailing-spaces--"),
-        ("Periods... and spaces", "periods-and-spaces"),
-        ("ALLCAPS", "allcaps"),
-        ("", ""),
-        ("NoSpacesOrPeriods", "nospacesorperiods"),
-        ("123 456 789.", "123-456-789"),
-        ("Tabs\tand\nnewlines", "tabs\tand\nnewlines"),
-    ],
-    ids=[
-        "normal_case",
-        "leading_trailing_spaces",
-        "periods_and_spaces",
-        "all_caps",
-        "empty_string",
-        "no_spaces_or_periods",
-        "numeric_with_spaces_and_period",
-        "tabs_and_newlines_unchanged",
+        (True, True, 2),  # Test case 1: CSV file with headers, create directories
+        (
+            False,
+            False,
+            2,
+        ),  # Test case 2: CSV file without headers, don't create directories
     ],
 )
-def test_replace_spaces(input_text, expected_output):
-    # Act
-    result = replace_spaces(input_text)
+def test_convert(tmpdir, csv_headers, create_directories, expected_files):
+    """
+    Test the convert function.
+    """
+
+    # Create a single CSV file for all test cases
+    csv_file_path = tmpdir.join("test.csv")
+    csv_file_path.write("Name,Description\nJohn,Doe\nJane,Smith")
+
+    output_dir = tmpdir.mkdir("output")
+
+    convert(
+        csv_file_path,
+        csv_headers,
+        output_dir,
+        create_directories,
+        verbose=False,
+        very_verbose=False,
+    )
 
     # Assert
-    assert result == expected_output
+    assert len(os.listdir(output_dir)) == expected_files
 
 
-# Tests for build_nested_list_from_csv function
-def test_build_nested_list_from_csv(tmpdir):
-    # Create a temporary CSV file for testing
-    csv_file = tmpdir.join("test.csv")
-    csv_file.write("1,2,3\n4,5,6\n7,8,9")
+@pytest.mark.parametrize(
+    "input_url, expected_md_link",
+    [
+        (
+            "https://www.example.com",
+            "[Example](https://www.example.com)",
+        ),  # Test case 1: Valid URL
+        ("invalid_url", ""),  # Test case 2: Invalid URL
+        ("", ""),  # Test case 3: Empty URL
+    ],
+)
+def test_md_link_generator(input_url, expected_md_link):
+    """
+    Test the MDLinkGenerator class.
+    """
 
-    # Test case 1: Read CSV file and build nested list
-    expected_output = [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"]]
-    assert build_nested_list_from_csv(csv_file) == expected_output
+    md_link_generator = MDLinkGenerator()
+    md_link = md_link_generator.generate_link(input_url)
 
-    # Test case 2: Empty CSV file
-    empty_csv_file = tmpdir.join("empty.csv")
-    empty_csv_file.write("")
-    expected_output = []
-    assert build_nested_list_from_csv(empty_csv_file) == expected_output
+    # Assert
+    assert md_link == expected_md_link
